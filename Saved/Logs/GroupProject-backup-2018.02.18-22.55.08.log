@@ -1,0 +1,1306 @@
+﻿Log file open, 02/15/18 09:37:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GroupProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(353023396) SRandInit(353023396).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.246315
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.15-09.37.24:669][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.15-09.37.24:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.15-09.37.24:721][  0]LogInit: Computer: AMTX210-29
+[2018.02.15-09.37.24:721][  0]LogInit: User: mh18amt
+[2018.02.15-09.37.24:721][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.15-09.37.24:721][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2018.02.15-09.37.24:721][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.15-09.37.24:721][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.15-09.37.24:721][  0]LogMemory: Process Physical Memory: 278.60 MB used, 278.60 MB peak
+[2018.02.15-09.37.24:721][  0]LogMemory: Process Virtual Memory: 274.12 MB used, 274.12 MB peak
+[2018.02.15-09.37.24:721][  0]LogMemory: Physical Memory: 2706.18 MB used,  13532.65 MB free, 16238.83 MB total
+[2018.02.15-09.37.24:721][  0]LogMemory: Virtual Memory: 669.04 MB used,  13532.65 MB free, 134217728.00 MB total
+[2018.02.15-09.37.25:089][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.15-09.37.25:089][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.15-09.37.25:148][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.15-09.37.27:523][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.15-09.37.27:693][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.15-09.37.27:693][  0]LogD3D11RHI:       8085/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.15-09.37.27:788][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.02.15-09.37.27:788][  0]LogD3D11RHI:       128/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.15-09.37.27:792][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.15-09.37.27:792][  0]LogD3D11RHI:       0/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.15-09.37.27:792][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.15-09.37.27:803][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.15-09.37.27:804][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.15-09.37.27:804][  0]LogWindows: EnumDisplayDevices:
+[2018.02.15-09.37.27:804][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.15-09.37.27:804][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.15-09.37.27:804][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.15-09.37.27:804][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.15-09.37.27:805][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.15-09.37.27:805][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.15-09.37.27:805][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.15-09.37.27:805][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.02.15-09.37.27:805][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.15-09.37.27:806][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2018.02.15-09.37.27:806][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2018.02.15-09.37.27:806][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.15-09.37.27:851][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.15-09.37.27:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.15-09.37.27:919][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (E:/GroupProject2018/Intermediate/Shaders/WorkingDirectory/10076/).
+[2018.02.15-09.37.27:919][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mh18amt/AppData/Local/Temp/UnrealShaderWorkingDir/84B9967E44AC9E018D586C914E6A56EA/'.
+[2018.02.15-09.37.27:920][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.15-09.37.29:965][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.15-09.37.30:007][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.15-09.37.30:045][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.15-09.37.30:084][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.15-09.37.30:126][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.15-09.37.30:165][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.15-09.37.30:214][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.15-09.37.30:264][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.15-09.37.30:309][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.15-09.37.30:369][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.15-09.37.30:427][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.15-09.37.30:485][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.15-09.37.30:541][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.15-09.37.30:598][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.15-09.37.30:654][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.15-09.37.30:769][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.15-09.37.30:769][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.15-09.37.30:810][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.15-09.37.30:921][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.15-09.37.30:947][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.15-09.37.30:985][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.15-09.37.31:023][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.15-09.37.31:062][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.15-09.37.31:104][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.15-09.37.31:104][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.15-09.37.31:626][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.15-09.37.31:626][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.02.15-09.37.31:626][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GroupProject2018/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.15-09.37.31:626][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.15-09.37.31:626][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GroupProject2018/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.15-09.37.31:626][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.15-09.37.31:653][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.15-09.37.31:666][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mh18amt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.15-09.37.31:701][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.15-09.37.31:707][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.15-09.37.31:724][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.15-09.37.31:724][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.15-09.37.32:769][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
+[2018.02.15-09.37.32:957][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.15-09.37.33:755][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.15-09.37.33:790][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.15-09.37.33:791][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.15-09.37.33:791][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.15-09.37.33:791][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.15-09.37.33:791][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.15-09.37.33:822][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.15-09.37.35:180][  0]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 32 triangles, Range [1.0, 1.0], SnapGridPlaneMesh
+[2018.02.15-09.37.35:180][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 88 triangles, Range [-0.5, 0.5], UniformScaleHandle
+[2018.02.15-09.37.35:180][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 56 triangles, Range [-0.0, 0.3], BoundingBoxEdge
+[2018.02.15-09.37.35:180][  0]LogMeshUtilities: Finished distance field build in 0.3s - 21x50x21 distance field, 916 triangles, Range [-0.1, 0.6], SM_CraneRig_Body
+[2018.02.15-09.37.35:180][  0]LogNetVersion: GroupProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2109825019)
+[2018.02.15-09.37.35:743][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.167799 seconds
+[2018.02.15-09.37.35:751][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.15-09.37.35:751][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.02.15-09.37.35:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.15-09.37.35:826][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.15-09.37.40:205][  0]LogMeshUtilities: Finished distance field build in 1.9s - 38x38x38 distance field, 12 triangles, Range [-0.6, 0.6], EditorCube
+[2018.02.15-09.37.40:205][  0]LogMeshUtilities: Discarded distance field for LaserPointerMesh_Start as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.37.40:205][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1084 triangles, Range [-0.5, 0.6], LaserPointerMesh_Start
+[2018.02.15-09.37.40:205][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1728 triangles, Range [1.0, 1.0], SM_Radial_Disk
+[2018.02.15-09.37.40:654][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.02.15-09.37.40:690][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.15-09.37.40:727][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.15-09.37.41:477][  0]LogMeshUtilities: Finished distance field build in 0.0s - 9x8x9 distance field, 192 triangles, Range [-0.2, 0.6], Cylinder
+[2018.02.15-09.37.41:515][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.15-09.37.41:870][  0]SourceControl: Source control is disabled
+[2018.02.15-09.37.41:870][  0]SourceControl: Source control is disabled
+[2018.02.15-09.37.41:914][  0]SourceControl: Source control is disabled
+[2018.02.15-09.37.41:956][  0]SourceControl: Source control is disabled
+[2018.02.15-09.37.42:558][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.15-09.37.42:834][  0]LogOcInput: OculusInput pre-init called
+[2018.02.15-09.37.43:325][  0]LogEngine: Initializing Engine...
+[2018.02.15-09.37.43:329][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.15-09.37.43:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.15-09.37.43:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.15-09.37.43:926][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.15-09.37.43:953][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-09.37.44:003][  0]LogInit: FAudioDevice initialized.
+[2018.02.15-09.37.44:078][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/mh18amt/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.15-09.37.44:085][  0]LogInit: Texture streaming: Enabled
+[2018.02.15-09.37.44:178][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.15-09.37.44:537][  0]LogInit: Transaction tracking system initialized
+[2018.02.15-09.37.44:862][  0]BlueprintLog: New page: Editor Load
+[2018.02.15-09.37.45:752][  0]LocalizationService: Localization service is disabled
+[2018.02.15-09.37.46:427][  0]LogConsoleResponse: Display: 
+[2018.02.15-09.37.46:714][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.15-09.37.46:714][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.15-09.37.46:718][  0]LogFileCache: Scanning file cache for directory 'E:/GroupProject2018/Content/' took 0.02s
+[2018.02.15-09.37.46:718][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.15-09.37.47:859][  0]LogMeshUtilities: Finished distance field build in 0.5s - 30x30x30 distance field, 48 triangles, Range [-0.6, 0.6], Cube
+[2018.02.15-09.37.47:859][  0]SourceControl: Source control is disabled
+[2018.02.15-09.37.47:861][  0]Cmd: MAP LOAD FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.15-09.37.47:925][  0]LightingResults: New page: Lighting Build
+[2018.02.15-09.37.47:965][  0]MapCheck: New page: Map Check
+[2018.02.15-09.37.47:965][  0]LightingResults: New page: Lighting Build
+[2018.02.15-09.37.49:538][  0]LogBlueprint: Warning: [FPCamera] 'Widget' variable not found. Base class was probably changed.
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: UIMask_03 (AutoDXT, 1024X1024)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: UIBackground_02 (AutoDXT, 1024X1024)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: UIBackground (AutoDXT, 1024X1024)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.02.15-09.37.51:409][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X512)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 256X128)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: 15_1 (BGRA8, 5X5)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: HUDObjective (AutoDXT, 1920X1080)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: CrouchHudFade (BGRA8, 1920X1080)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: UIButtonHovered (AutoDXT, 576X184)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: LeftMouseButton01 (AutoDXT, 1024X1024)
+[2018.02.15-09.37.51:597][  0]LogTexture: Display: Building textures: UIButton (AutoDXT, 576X184)
+[2018.02.15-09.37.51:597][  0]LogStaticMesh: Building static mesh SM_Door...
+[2018.02.15-09.37.51:612][  0]LogTexture: Display: Building textures: ButtonDefault01 (AutoDXT, 512X256)
+[2018.02.15-09.37.51:612][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Door.SM_Door
+[2018.02.15-09.37.51:969][  0]LogTexture: Display: Building textures: UIMask (AutoDXT, 1024X1024)
+[2018.02.15-09.37.51:969][  0]LogTexture: Display: Building textures: ButtonHover01 (AutoDXT, 512X256)
+[2018.02.15-09.37.51:969][  0]LogTexture: Display: Building textures: DoorFrame_low_lambert1_Roughness (BGRA8, 2048X2048)
+[2018.02.15-09.37.51:969][  0]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.02.15-09.37.52:001][  0]LogMaterial: Missing cached shader map for material NewMaterial_3, compiling. 
+[2018.02.15-09.37.52:091][  0]LogTexture: Display: Building textures: DoorFrame_low_lambert1_Normal (BC5, 2048X2048)
+[2018.02.15-09.37.52:091][  0]LogMeshUtilities: Finished distance field build in 0.3s - 8x8x8 distance field, 444 triangles, Range [-0.5, 0.5], SM_CornerFrame
+[2018.02.15-09.37.52:091][  0]LogTexture: Display: Building textures: DoorFrame_low_lambert1_Metallic (BGRA8, 2048X2048)
+[2018.02.15-09.37.52:091][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Monitor_sound_effect...
+[2018.02.15-09.37.52:201][  0]LogTexture: Display: Building textures: DoorFrame_low_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2018.02.15-09.37.52:233][  0]LogStaticMesh: Building static mesh DoorFrame_low...
+[2018.02.15-09.37.52:246][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshs/DoorFrame_01/DoorFrame_low.DoorFrame_low
+[2018.02.15-09.37.52:247][  0]LogStaticMesh: Building static mesh SM_Curve03_low...
+[2018.02.15-09.37.52:259][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshs/SM_Curve03_low.SM_Curve03_low
+[2018.02.15-09.37.52:260][  0]LogStaticMesh: Building static mesh SM_Curve04_low...
+[2018.02.15-09.37.52:269][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshs/SM_Curve04_low.SM_Curve04_low
+[2018.02.15-09.37.52:273][  0]LogStaticMesh: Building static mesh SM_Doorway04_low...
+[2018.02.15-09.37.52:283][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshs/SM_Doorway04_low.SM_Doorway04_low
+[2018.02.15-09.37.52:284][  0]LogStaticMesh: Building static mesh SM_DoubleWall_01_low...
+[2018.02.15-09.37.52:300][  0]LogStaticMesh: Built static mesh [0.02s] /Game/MyContent/Meshs/SM_DoubleWall_01_low.SM_DoubleWall_01_low
+[2018.02.15-09.37.52:301][  0]LogStaticMesh: Building static mesh SM_Wall03_low...
+[2018.02.15-09.37.52:309][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshs/SM_Wall03_low.SM_Wall03_low
+[2018.02.15-09.37.52:310][  0]LogStaticMesh: Building static mesh SM_Wall04_low...
+[2018.02.15-09.37.52:323][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshs/SM_Wall04_low.SM_Wall04_low
+[2018.02.15-09.37.52:453][  0]LogMaterial: Missing cached shader map for material NewMaterial_2, compiling. 
+[2018.02.15-09.37.52:654][  0]LogMaterial: Missing cached shader map for material M_Tech_Panel1_EM, compiling. 
+[2018.02.15-09.37.52:708][  0]LogMaterial: Missing cached shader map for material M_MaterialSphere_Plain, compiling. 
+[2018.02.15-09.37.53:012][  0]LogMaterial: Missing cached shader map for material DoorFrame_01, compiling. 
+[2018.02.15-09.37.53:042][  0]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-09.37.53:100][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-09.37.53:201][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-09.37.53:258][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.038ms to complete.
+[2018.02.15-09.37.53:258][  0]LogFileHelpers: Loading map 'MainMap' took 5.398
+[2018.02.15-09.37.53:569][  0]LogCollectionManager: Loaded 0 collections in 0.060663 seconds
+[2018.02.15-09.37.53:680][  0]LogFileCache: Scanning file cache for directory 'E:/GroupProject2018/Saved/Collections/' took 0.01s
+[2018.02.15-09.37.53:680][  0]LogFileCache: Scanning file cache for directory 'E:/GroupProject2018/Content/Developers/mh18amt/Collections/' took 0.01s
+[2018.02.15-09.37.53:680][  0]LogFileCache: Scanning file cache for directory 'E:/GroupProject2018/Content/Collections/' took 0.01s
+[2018.02.15-09.37.53:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.15-09.37.53:694][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2400 classes and 506 folders.
+[2018.02.15-09.37.53:776][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.02.15-09.37.54:313][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.02.15-09.37.54:375][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.02.15-09.37.54:493][  0]LogSlate: Took 0.005734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.15-09.37.54:501][  0]LogSlate: Took 0.005668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.15-09.37.54:514][  0]LogSlate: Took 0.005104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.15-09.37.54:710][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.02.15-09.37.56:810][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.15-09.37.56:810][  0]LogLoad: (Engine Initialization) Total time: 35.62 seconds
+[2018.02.15-09.37.56:810][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.15-09.37.56:811][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.15-09.37.56:811][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.15-09.37.56:853][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.15-09.37.56:954][  0]LogSlate: Took 0.007722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-09.37.56:989][  1]LogAssetRegistry: Asset discovery search completed in 24.2442 seconds
+[2018.02.15-09.37.56:991][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.15-09.37.56:991][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.02.15-09.37.57:090][  3]LogMeshUtilities: Finished distance field build in 0.2s - 30x8x45 distance field, 409 triangles, Range [-0.1, 0.6], SM_Wall04_low
+[2018.02.15-09.37.57:378][ 15]LogMeshUtilities: Finished distance field build in 0.2s - 30x9x45 distance field, 205 triangles, Range [-0.1, 0.5], SM_Wall03_low
+[2018.02.15-09.37.57:868][ 48]LogMeshUtilities: Finished distance field build in 0.4s - 60x10x45 distance field, 372 triangles, Range [-0.1, 0.6], SM_DoubleWall_01_low
+[2018.02.15-09.37.57:892][ 48]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-09.37.58:345][ 79]LogMeshUtilities: Finished distance field build in 0.4s - 30x15x45 distance field, 334 triangles, Range [-0.2, 0.5], SM_Doorway04_low
+[2018.02.15-09.37.58:488][ 83]LogMeshUtilities: Finished distance field build in 0.0s - 8x17x31 distance field, 96 triangles, Range [-0.0, 0.5], SM_DoorFrame
+[2018.02.15-09.37.58:825][105]LogMeshUtilities: Finished distance field build in 0.3s - 18x18x45 distance field, 356 triangles, Range [-0.1, 0.7], SM_Curve04_low
+[2018.02.15-09.37.59:074][116]LogMeshUtilities: Finished distance field build in 0.2s - 16x16x45 distance field, 309 triangles, Range [-0.1, 0.7], SM_Curve03_low
+[2018.02.15-09.37.59:361][128]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-09.37.59:571][128]LogMeshUtilities: Finished distance field build in 0.4s - 14x52x36 distance field, 288 triangles, Range [-0.1, 0.6], DoorFrame_low
+[2018.02.15-09.37.59:641][128]LogMaterial: Missing cached shader map for material NewMediaPlayer_Video_Mat, compiling. 
+[2018.02.15-09.37.59:677][128]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.15-09.37.59:695][128]Cmd: MAP LOAD FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.15-09.37.59:695][128]LightingResults: New page: Lighting Build
+[2018.02.15-09.37.59:696][128]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.02.15-09.37.59:698][128]MapCheck: New page: Map Check
+[2018.02.15-09.37.59:698][128]LightingResults: New page: Lighting Build
+[2018.02.15-09.37.59:721][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-09.37.59:778][128]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-09.37.59:842][128]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.758ms to complete.
+[2018.02.15-09.37.59:842][128]LogFileHelpers: Loading map 'MainMenu' took 0.148
+[2018.02.15-09.37.59:968][134]LogMeshUtilities: Finished distance field build in 0.0s - 8x13x30 distance field, 1472 triangles, Range [0.0, 0.4], SM_Door
+[2018.02.15-09.38.00:078][142]LogMeshUtilities: Discarded distance field for Plane as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.38.00:078][142]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 2 triangles, Range [-0.2, 1.0], Plane
+[2018.02.15-09.38.00:564][171]LogMeshUtilities: Finished distance field build in 0.4s - 30x30x29 distance field, 284 triangles, Range [-0.4, 1.0], Cone
+[2018.02.15-09.38.01:206][198]LogMeshUtilities: Finished distance field build in 0.6s - 30x30x30 distance field, 512 triangles, Range [-0.6, 0.8], Cylinder
+[2018.02.15-09.38.01:810][232]LogMeshUtilities: Finished distance field build in 0.5s - 30x30x30 distance field, 960 triangles, Range [-0.6, 1.0], Sphere
+[2018.02.15-09.38.01:903][239]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 180 triangles, Range [-0.4, 0.8], JointSphere
+[2018.02.15-09.38.01:984][246]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 40 triangles, Range [-0.5, 0.6], LineSegmentCylinder
+[2018.02.15-09.38.02:067][254]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 744 triangles, Range [1.0, 1.0], SM_Radial_Pointer
+[2018.02.15-09.38.02:149][262]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 32 triangles, Range [1.0, 1.0], PlaneMesh
+[2018.02.15-09.38.02:235][269]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 240 triangles, Range [-0.0, 0.4], SM_Dialog_Move
+[2018.02.15-09.38.02:329][276]LogMeshUtilities: Discarded distance field for SM_ContentWindow_01 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.38.02:330][276]LogMeshUtilities: Finished distance field build in 0.0s - 8x15x15 distance field, 670 triangles, Range [-0.1, 1.0], SM_ContentWindow_01
+[2018.02.15-09.38.02:448][286]LogMeshUtilities: Finished distance field build in 0.0s - 25x15x8 distance field, 196 triangles, Range [0.0, 0.7], TeleportDirectionMesh
+[2018.02.15-09.38.02:532][293]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 440 triangles, Range [-0.0, 0.4], SM_Dialog_Close
+[2018.02.15-09.38.02:621][301]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 5818 triangles, Range [-0.0, 0.7], GenericHMD
+[2018.02.15-09.38.02:722][311]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 12554 triangles, Range [-0.1, 1.0], OculusControllerMesh
+[2018.02.15-09.38.02:816][319]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 17326 triangles, Range [-0.1, 0.6], VivePreControllerMesh
+[2018.02.15-09.38.03:194][340]LogMeshUtilities: Finished distance field build in 0.3s - 15x30x30 distance field, 254 triangles, Range [-0.2, 1.0], CursorPointer
+[2018.02.15-09.38.03:276][347]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 528 triangles, Range [-0.4, 0.9], HoverMesh
+[2018.02.15-09.38.03:367][356]LogMeshUtilities: Discarded distance field for LaserPointerMesh as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.38.03:367][356]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1024 triangles, Range [-0.5, 0.6], LaserPointerMesh
+[2018.02.15-09.38.03:396][358]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-09.38.03:610][358]LogMeshUtilities: Discarded distance field for LaserPointerMesh_End as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.38.03:610][358]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1084 triangles, Range [-0.5, 0.6], LaserPointerMesh_End
+[2018.02.15-09.38.03:610][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MyContent/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.15-09.38.03:610][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-09.38.03:611][358]PIE: New page: PIE session: MainMenu (15 Feb 2018 09:38:03)
+[2018.02.15-09.38.03:611][358]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainMenu
+[2018.02.15-09.38.03:614][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002342s)
+[2018.02.15-09.38.03:614][358]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.15-09.38.03:615][358]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.02.15-09.38.03:615][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainMenu.MainMenu to /Game/MyContent/Levels/UEDPIE_0_MainMenu.MainMenu (0.003371s)
+[2018.02.15-09.38.03:627][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-09.38.03:642][358]LogInit: FAudioDevice initialized.
+[2018.02.15-09.38.03:688][358]LogLoad: Game class is 'MainMenuGM_C'
+[2018.02.15-09.38.03:691][358]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.02.15-09.38.03
+[2018.02.15-09.38.03:692][358]LogWorld: Bringing up level for play took: 0.001934
+[2018.02.15-09.38.03:745][358]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.02.15-09.38.03:793][358]PIE: Play in editor start time for /Game/MyContent/Levels/UEDPIE_0_MainMenu 0.592
+[2018.02.15-09.38.03:794][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MyContent/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.15-09.38.03:887][359]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 835 triangles, Range [-0.1, 0.8], GearVRController
+[2018.02.15-09.38.07:135][393]LogMeshUtilities: Finished distance field build in 2.2s - 48x48x48 distance field, 528 triangles, Range [-0.6, 1.0], Sphere
+[2018.02.15-09.38.07:206][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MyContent/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.15-09.38.07:253][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MyContent/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.15-09.38.07:266][396]LogMeshUtilities: Discarded distance field for SplineEditorMesh as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.38.07:266][396]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 60 triangles, Range [-0.2, 1.0], SplineEditorMesh
+[2018.02.15-09.38.07:320][397]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2018.02.15-09.38.07:320][397]LogSynthBenchmark: Display: ===============
+[2018.02.15-09.38.07:320][397]LogSynthBenchmark: Display: Main Processor:
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:          ... 0.023988 s/Run 'RayIntersect'
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:          ... 0.020239 s/Run 'Fractal'
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display: 
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   CPU Perf Index 0: 106.8 (weight 1.00)
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   CPU Perf Index 1: 141.3 (weight 1.50)
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:  
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display: Graphics:
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 1070'
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   Device Id: 0x1B81
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2018.02.15-09.38.07:542][397]LogSynthBenchmark: Display:   GPU Memory: 8086/0/8120 MB
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:   GPU first test: 0.04s
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 2.898 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 2.241 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 1.846 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 9.867 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 0.451 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 0.457 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.02.15-09.38.07:683][397]LogSynthBenchmark: Display:          ... 2.684 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU second test: 0.19s
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 12.856 s/GigaPix, Confidence=30% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 10.442 s/GigaPix, Confidence=30% 'TexHeavy' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 9.578 s/GigaPix, Confidence=30% 'DepTexHeavy' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 57.824 s/GigaPix, Confidence=30% 'FillOnly' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 1.244 s/GigaPix, Confidence=30% 'Bandwidth' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 6.029 s/GigaVert, Confidence=30% 'VertThroughPut1' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 5.372 s/GigaVert, Confidence=40% 'VertThroughPut2' (likely to be inaccurate)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 12.856 s/GigaPix, Confidence=30% 'ALUHeavyNoise'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 10.442 s/GigaPix, Confidence=30% 'TexHeavy'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 9.578 s/GigaPix, Confidence=30% 'DepTexHeavy'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 57.824 s/GigaPix, Confidence=30% 'FillOnly'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 1.244 s/GigaPix, Confidence=30% 'Bandwidth'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 6.029 s/GigaVert, Confidence=30% 'VertThroughPut1'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... 5.372 s/GigaVert, Confidence=40% 'VertThroughPut2'
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display: 
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 0: 279.4 (weight 1.00)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 1: 140.2 (weight 0.10)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 2: 249.0 (weight 0.10)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 3: 227.1 (weight 3.00)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 4: 116.1 (weight 1.00)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 5: 392.3 (weight 0.00)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPU Perf Index 6: 304.0 (weight 0.00)
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   CPUIndex: 127.5
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:   GPUIndex: 214.6
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display: 
+[2018.02.15-09.38.07:938][397]LogSynthBenchmark: Display:          ... Total Time: 0.617922 sec
+[2018.02.15-09.38.07:941][397]LogWindows: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment unavailable. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
+[2018.02.15-09.38.09:791][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.38.10:094][524]LogSavePackage: Save=77.28ms
+[2018.02.15-09.38.10:094][524]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenuE574880142B28BD1A8AF8EB0A4506BF9.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.38.10:096][524]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.38.10:104][524]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.38.12:856][712]LogMeshUtilities: Finished distance field build in 5.5s - 64x64x64 distance field, 3968 triangles, Range [-0.1, 1.0], EditorSkySphere
+[2018.02.15-09.38.13:704][724]LogMeshUtilities: Finished distance field build in 0.6s - 28x28x38 distance field, 448 triangles, Range [-0.5, 0.6], EditorCylinder
+[2018.02.15-09.38.13:939][736]LogMeshUtilities: Finished distance field build in 0.2s - 8x38x38 distance field, 32 triangles, Range [-0.1, 1.0], EditorPlane
+[2018.02.15-09.38.17:582][771]LogMeshUtilities: Finished distance field build in 3.5s - 48x48x48 distance field, 3968 triangles, Range [-0.6, 1.0], EditorSphere
+[2018.02.15-09.38.18:270][773]LogMeshUtilities: Discarded distance field for S_1_Unit_Plane as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.15-09.38.18:270][773]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 32 triangles, Range [-0.4, 0.7], S_1_Unit_Plane
+[2018.02.15-09.38.18:645][774]LogMeshUtilities: Finished distance field build in 0.0s - 8x14x8 distance field, 6252 triangles, Range [-0.1, 0.6], SM_CineCam
+[2018.02.15-09.38.19:031][775]LogMeshUtilities: Finished distance field build in 0.0s - 14x8x8 distance field, 4528 triangles, Range [-0.1, 0.6], MatineeCam_SM
+[2018.02.15-09.38.19:583][776]LogMeshUtilities: Finished distance field build in 0.2s - 8x8x8 distance field, 1672 triangles, Range [-0.1, 0.4], SM_RailRig_Mount
+[2018.02.15-09.38.19:705][777]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x11 distance field, 1488 triangles, Range [-0.0, 0.4], SM_RailRig_Track
+[2018.02.15-09.38.20:327][778]LogMeshUtilities: Finished distance field build in 0.0s - 9x8x13 distance field, 200 triangles, Range [-0.3, 0.7], SM_CraneRig_Mount
+[2018.02.15-09.38.20:617][779]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 12 triangles, Range [-0.3, 0.3], SM_CraneRig_Arm
+[2018.02.15-09.38.20:946][780]LogMeshUtilities: Finished distance field build in 0.2s - 31x27x20 distance field, 1068 triangles, Range [-0.1, 1.0], SM_CraneRig_Base
+[2018.02.15-09.38.21:280][781]LogMeshUtilities: Finished distance field build in 0.0s - 8x9x8 distance field, 664 triangles, Range [-0.2, 0.7], SM_Sequencer_Key
+[2018.02.15-09.38.21:614][782]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 172 triangles, Range [-0.0, 1.0], BoundingBoxCorner
+[2018.02.15-09.38.21:947][783]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 120 triangles, Range [-0.0, 0.4], PlaneTranslationHandle
+[2018.02.15-09.38.22:281][784]LogMeshUtilities: Finished distance field build in 0.1s - 8x29x29 distance field, 4096 triangles, Range [-0.0, 0.8], RotationHandleFull
+[2018.02.15-09.38.22:615][785]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 272 triangles, Range [-0.0, 0.6], RotationHandleIndicator
+[2018.02.15-09.38.22:948][786]LogMeshUtilities: Finished distance field build in 0.0s - 8x13x14 distance field, 952 triangles, Range [-0.0, 1.0], RotationHandleQuarter
+[2018.02.15-09.38.23:281][787]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 544 triangles, Range [-0.0, 0.6], StartRotationHandleIndicator
+[2018.02.15-09.38.23:614][788]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 32256 triangles, Range [-0.5, 0.9], TransformGizmoFreeRotation
+[2018.02.15-09.38.23:948][789]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 172 triangles, Range [0.0, 0.4], TranslateArrowHandle
+[2018.02.15-09.38.46:317][375]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2018.02.15-09.38.47:027][375]LogSlate: Took 0.003681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.15-09.38.52:565][959]LogSlate: Took 0.003706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.15-09.41.53:007][485]BlueprintLog: New page: Compile MainMenu
+[2018.02.15-09.41.53:598][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset" SILENT=true
+[2018.02.15-09.41.53:753][485]LogSavePackage: Save=135.12ms
+[2018.02.15-09.41.53:753][485]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu91EE4D0C44E3A32ED01516ACD9CB488A.tmp' to 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.41.53:757][485]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset
+[2018.02.15-09.42.05:270][353]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.42.05:379][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.42.05:434][353]LogSavePackage: Save=46.79ms
+[2018.02.15-09.42.05:434][353]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenu5928C3D04FCFE81E47D8DA8D4D1B212A.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.42.05:435][353]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.42.05:442][353]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.43.25:342][389]LogEditorTransaction: Undo Move Node
+[2018.02.15-09.43.46:808][926]BlueprintLog: New page: Compile MainMenu
+[2018.02.15-09.43.46:872][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset" SILENT=true
+[2018.02.15-09.43.46:996][926]LogSavePackage: Save=113.47ms
+[2018.02.15-09.43.46:996][926]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenuBA4D859F4FC10B848C64E9B9744F76A7.tmp' to 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.43.46:999][926]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset
+[2018.02.15-09.43.48:056][ 51]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.43.48:152][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.43.48:213][ 51]LogSavePackage: Save=46.28ms
+[2018.02.15-09.43.48:213][ 51]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenu821BA7B64A390F27E7F49A911AFDA046.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.43.48:214][ 51]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.43.48:222][ 51]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.45.20:068][267]LogSlate: Took 0.021342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.Monitor02:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.DoorOpen:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.FPHUD:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.SKEL_DoorOpen_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.SKEL_FPHUD_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Keypad.SKEL_Keypad_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.SKEL_Monitor02_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.DoorOpen_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.FPHUD_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.Monitor02_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.Monitor:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.SKEL_Monitor_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.Monitor_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_2.WidgetTree_12.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_4.WidgetTree_14.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_3.WidgetTree_13.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/MainMenu/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/MainMenu/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_0.WidgetTree_10.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_1.WidgetTree_11.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_5.WidgetTree_15.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_6.WidgetTree_16.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_7.WidgetTree_17.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_8.WidgetTree_18.CanvasPanel_0
+[2018.02.15-09.45.45:368][257]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_9.WidgetTree_19.CanvasPanel_0
+[2018.02.15-09.45.45:369][257]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7) from referencer (BackgroundBlur /Engine/UMG/Editor/Transient.OptionsBlur).  Import failed...
+[2018.02.15-09.45.45:369][257]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_7''
+[2018.02.15-09.45.50:911][904]LogEditorTransaction: Undo Animatable Property Changed
+[2018.02.15-09.45.51:485][966]LogEditorTransaction: Undo Animatable Property Changed
+[2018.02.15-09.46.02:591][286]LogEditorTransaction: Undo Remove Widget
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.Monitor02:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.DoorOpen:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.FPHUD:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.SKEL_DoorOpen_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.SKEL_FPHUD_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Keypad.SKEL_Keypad_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.SKEL_Monitor02_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.DoorOpen_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.FPHUD_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.Monitor02_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.Monitor:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.SKEL_Monitor_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.Monitor_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_2.WidgetTree_12.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_4.WidgetTree_14.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_3.WidgetTree_13.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/MainMenu/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/MainMenu/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_0.WidgetTree_10.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_1.WidgetTree_11.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_5.WidgetTree_15.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_6.WidgetTree_16.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_7.WidgetTree_17.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_8.WidgetTree_18.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_9.WidgetTree_19.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_10.WidgetTree_20.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_11.WidgetTree_21.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_12.WidgetTree_22.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_13.WidgetTree_23.CanvasPanel_0
+[2018.02.15-09.46.07:164][809]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7) from referencer (BackgroundBlur /Engine/UMG/Editor/Transient.OptionsBlur).  Import failed...
+[2018.02.15-09.46.07:164][809]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_7''
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.Monitor02:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.DoorOpen:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.FPHUD:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.SKEL_DoorOpen_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.SKEL_FPHUD_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Keypad.SKEL_Keypad_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.SKEL_Monitor02_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/DoorOpen.DoorOpen_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/FPHUD.FPHUD_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor02.Monitor02_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.Monitor:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.SKEL_Monitor_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/Widgets/Monitor.Monitor_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_2.WidgetTree_12.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_4.WidgetTree_14.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_3.WidgetTree_13.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/MainMenu/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/MyContent/MainMenu/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_0.WidgetTree_10.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_1.WidgetTree_11.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_5.WidgetTree_15.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_6.WidgetTree_16.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_7.WidgetTree_17.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_8.WidgetTree_18.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_9.WidgetTree_19.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_10.WidgetTree_20.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_11.WidgetTree_21.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_12.WidgetTree_22.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_13.WidgetTree_23.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_14.WidgetTree_24.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_15.WidgetTree_25.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_16.WidgetTree_26.CanvasPanel_0
+[2018.02.15-09.46.23:258][692]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/MyContent/Widgets/Keypad.Keypad:WidgetTree.CanvasPanel_0.CanvasPanelSlot_13) from referencer (BackgroundBlur /Engine/UMG/Editor/Transient.BackgroundBlur_150).  Import failed...
+[2018.02.15-09.46.23:258][692]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_13''
+[2018.02.15-09.48.56:774][972]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.49.00:215][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset" SILENT=true
+[2018.02.15-09.49.00:393][972]LogSavePackage: Save=107.79ms
+[2018.02.15-09.49.00:393][972]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu842740DE4096C375B7993BB8E0F9DB86.tmp' to 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.49.00:400][972]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset
+[2018.02.15-09.49.00:429][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.49.00:492][972]LogSavePackage: Save=47.46ms
+[2018.02.15-09.49.00:492][972]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenuAEF8351F4561E4F77B74458FE4B93B3B.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.49.00:494][972]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.49.00:502][972]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.50.14:826][767]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.50.14:926][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.50.14:982][767]LogSavePackage: Save=46.34ms
+[2018.02.15-09.50.14:982][767]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenuC510C1594444804C8991839E7AF0F0F4.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.50.14:984][767]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.50.14:992][767]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.50.56:344][465]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-09.50.56:378][465]Cmd: MAP LOAD FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.15-09.50.56:378][465]LightingResults: New page: Lighting Build
+[2018.02.15-09.50.56:380][465]LoadErrors: New page: Loading map: MainMap.umap
+[2018.02.15-09.50.56:380][465]MapCheck: New page: Map Check
+[2018.02.15-09.50.56:380][465]LightingResults: New page: Lighting Build
+[2018.02.15-09.50.56:426][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-09.50.56:573][465]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-09.50.56:622][465]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.296ms to complete.
+[2018.02.15-09.50.56:622][465]LogFileHelpers: Loading map 'MainMap' took 0.244
+[2018.02.15-09.51.02:221][981]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GroupProject
+[2018.02.15-09.51.02:221][981]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.02.15-09.51.02:221][981]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.02.15-09.51.02:221][981]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.02.15-09.51.02:221][981]LogTemp: BranchPath = AMTX210-29/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = AMTX210-29/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.02.15-09.51.02:241][982]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mh18amt\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.15-09.51.18:114][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-09.51.18:114][586]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.15-09.51.18:123][586]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.02.15-09.51.18:239][586]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2018.02.15-09.51.18:239][586]PIE: New page: PIE session: MainMap (15 Feb 2018 09:51:18)
+[2018.02.15-09.51.18:239][586]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainMap
+[2018.02.15-09.51.18:259][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019722s)
+[2018.02.15-09.51.18:259][586]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-09.51.18:259][586]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2018.02.15-09.51.18:259][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainMap.MainMap to /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap (0.020486s)
+[2018.02.15-09.51.18:277][586]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-09.51.18:286][586]LogInit: FAudioDevice initialized.
+[2018.02.15-09.51.18:317][586]LogLoad: Game class is 'NewGM_C'
+[2018.02.15-09.51.18:324][586]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.02.15-09.51.18
+[2018.02.15-09.51.18:336][586]LogWorld: Bringing up level for play took: 0.018203
+[2018.02.15-09.51.18:339][586]Cmd: stat FPS
+[2018.02.15-09.51.18:339][586]PIE: Play in editor start time for /Game/MyContent/Levels/UEDPIE_0_MainMap 0.795
+[2018.02.15-09.51.18:346][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-09.51.18:348][586]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0EAF
+[2018.02.15-09.51.18:348][586]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2018.02.15-09.51.42:188][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-09.51.42:232][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-09.53.26:033][695]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.15-09.53.26:052][695]Cmd: MAP LOAD FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.15-09.53.26:052][695]LightingResults: New page: Lighting Build
+[2018.02.15-09.53.26:053][695]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.02.15-09.53.26:056][695]MapCheck: New page: Map Check
+[2018.02.15-09.53.26:056][695]LightingResults: New page: Lighting Build
+[2018.02.15-09.53.26:077][695]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-09.53.26:586][695]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-09.53.26:685][695]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.579ms to complete.
+[2018.02.15-09.53.26:685][695]LogFileHelpers: Loading map 'MainMenu' took 0.634
+[2018.02.15-09.53.26:689][695]LogSlate: Took 0.003018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.15-09.55.33:875][679]BlueprintLog: New page: Compile MainMenu
+[2018.02.15-09.55.34:416][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset" SILENT=true
+[2018.02.15-09.55.34:578][679]LogSavePackage: Save=138.19ms
+[2018.02.15-09.55.34:578][679]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu1108DAA0499DC609D4A069A86B0555CB.tmp' to 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.55.34:581][679]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset
+[2018.02.15-09.55.36:919][957]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.55.37:117][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.55.37:177][957]LogSavePackage: Save=45.00ms
+[2018.02.15-09.55.37:178][957]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenu1B5F09E34AD0DD25D7A57BB3B6ED689B.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.55.37:179][957]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.55.37:186][957]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.56.47:113][603]BlueprintLog: New page: Compile MainMenu
+[2018.02.15-09.56.47:733][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset" SILENT=true
+[2018.02.15-09.56.47:882][603]LogSavePackage: Save=119.23ms
+[2018.02.15-09.56.47:882][603]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu5F8DF14A4B6B54501A6502AC3C98573D.tmp' to 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.56.47:882][603]LogFileManager: Warning: DeleteFile was unable to delete 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset', retrying in .5s...
+[2018.02.15-09.56.48:382][603]LogFileManager: Error: Error deleting file 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'.
+[2018.02.15-09.56.48:382][603]LogSavePackage: Error: Error saving 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.56.48:388][603]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset
+[2018.02.15-09.57.05:509][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MainMenu/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset" SILENT=true
+[2018.02.15-09.57.05:634][603]LogSavePackage: Save=114.89ms
+[2018.02.15-09.57.05:634][603]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu8A25326945626A98B27949948102B6C7.tmp' to 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.57.05:638][603]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset
+[2018.02.15-09.57.05:643][603]EditorErrors: New page: Save Output
+[2018.02.15-09.57.05:643][603]EditorErrors: Warning: Error saving 'E:/GroupProject2018/Content/MyContent/MainMenu/MainMenu.uasset'
+[2018.02.15-09.57.16:184][830]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.57.16:294][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.57.16:352][830]LogSavePackage: Save=48.09ms
+[2018.02.15-09.57.16:352][830]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMenu16816220436216F5D8544AB1F5F8486B.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap'
+[2018.02.15-09.57.16:353][830]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMenu.umap
+[2018.02.15-09.57.16:359][830]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-09.57.57:716][492]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GroupProject
+[2018.02.15-09.57.57:716][492]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.02.15-09.57.57:716][492]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.02.15-09.57.57:716][492]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.02.15-09.57.57:716][492]LogTemp: BranchPath = AMTX210-29/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = AMTX210-29/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.02.15-09.57.57:729][493]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mh18amt\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.15-09.58.21:842][371]MapCheck: New page: Map Check
+[2018.02.15-09.58.21:861][371]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.15-09.58.21:862][371]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.15-09.58.21:922][371]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.15-09.58.21:928][371]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.15-09.58.22:306][371]TextureStreamingBuild: Display: Compiling optional shaders took 0.391 seconds.
+[2018.02.15-09.58.22:312][371]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
+[2018.02.15-09.58.22:316][371]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2018.02.15-09.58.22:330][371]LightingResults: New page: Lighting Build - 15 Feb 2018 09:58:22
+[2018.02.15-09.58.22:456][371]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.15-09.58.22:571][371]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.15-09.58.22:583][371]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.15-09.58.23:112][371]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.15-09.58.23:112][371]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10076
+[2018.02.15-09.58.25:931][371]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.15-09.58.25:932][371]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.15-09.58.25:932][371]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.15-09.58.25:932][371]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.15-09.58.25:932][371]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.15-09.58.25:932][371]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.15-09.58.26:019][371]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.15-09.58.26:019][371]MapCheck: New page: MainMenu - 15 Feb 2018 09:58:26
+[2018.02.15-09.58.26:060][371]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.977ms to complete.
+[2018.02.15-09.58.26:082][371]LogEditorBuildUtils: Build time 0:04
+[2018.02.15-09.58.26:115][371]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.02.15-09.58.26:123][371]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.02.15-09.58.28:066][445]Job is a success!
+[2018.02.15-09.58.28:136][446]Lightmass on AMTX210-29: 607 ms total, 92 ms importing, 15 ms setup, 271 ms photons, 200 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 1.24 sec total, 0 ms processing.
+[2018.02.15-09.58.28:158][446]LogStaticLightingSystem: Illumination: 5.80 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.02.15-09.58.28:158][446]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.02.15-09.58.28:158][446]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.02.15-09.58.28:936][446]DumpUnbuiltLightIteractions
+[2018.02.15-09.58.28:936][446]Lights with unbuilt interactions: 0
+[2018.02.15-09.58.28:936][446]
+[2018.02.15-09.58.28:936][446]Primitives with unbuilt interactions: 0
+[2018.02.15-09.58.28:965][447]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.15-09.58.28:965][447]MapCheck: New page: MainMenu - 15 Feb 2018 09:58:28
+[2018.02.15-09.58.29:022][447]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.788ms to complete.
+[2018.02.15-09.58.43:701][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.15-09.58.43:771][196]LogSavePackage: Save=47.11ms
+[2018.02.15-09.58.43:771][196]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu633BEEB04536A2A23FC2468587A30D6A.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMenu.umap'
+[2018.02.15-09.58.43:774][196]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMenu.umap
+[2018.02.15-09.58.43:809][196]LogFileHelpers: Saving map 'MainMenu' took 0.150
+[2018.02.15-09.58.43:811][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu_BuiltData" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMenu_BuiltData.uasset" SILENT=true
+[2018.02.15-09.58.43:828][196]LogSavePackage: Save=5.16ms
+[2018.02.15-09.58.43:828][196]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu_BuiltData8652B181423CBC151E5C7F98162DC597.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMenu_BuiltData.uasset'
+[2018.02.15-09.58.43:832][196]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMenu_BuiltData.uasset
+[2018.02.15-09.58.43:834][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMenu_BuiltData" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMenu_BuiltData.uasset" SILENT=true
+[2018.02.15-09.58.43:859][196]LogSavePackage: Save=14.94ms
+[2018.02.15-09.58.43:859][196]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMenu_BuiltData11D933534373DEDDF6D4C6882783187D.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMenu_BuiltData.uasset'
+[2018.02.15-09.58.43:860][196]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMenu_BuiltData.uasset
+[2018.02.15-09.58.44:991][320]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-09.58.45:024][320]Cmd: MAP LOAD FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.15-09.58.45:024][320]LightingResults: New page: Lighting Build
+[2018.02.15-09.58.45:025][320]LoadErrors: New page: Loading map: MainMap.umap
+[2018.02.15-09.58.45:025][320]MapCheck: New page: Map Check
+[2018.02.15-09.58.45:025][320]LightingResults: New page: Lighting Build
+[2018.02.15-09.58.45:064][320]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-09.58.45:187][320]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-09.58.45:228][320]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.005ms to complete.
+[2018.02.15-09.58.45:229][320]LogFileHelpers: Loading map 'MainMap' took 0.206
+[2018.02.15-09.58.49:267][753]MapCheck: New page: Map Check
+[2018.02.15-09.58.49:277][753]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.15-09.58.49:277][753]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.15-09.58.49:585][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.15-09.58.49:591][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2018.02.15-09.58.49:597][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2018.02.15-09.58.49:605][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_MaterialSphere_Plain, compiling. 
+[2018.02.15-09.58.49:612][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.02.15-09.58.49:620][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.02.15-09.58.49:628][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
+[2018.02.15-09.58.49:636][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Hex_Tile, compiling. 
+[2018.02.15-09.58.49:643][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.15-09.58.49:648][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.02.15-09.58.49:654][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.02.15-09.58.49:660][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Panel, compiling. 
+[2018.02.15-09.58.49:668][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DoorFrame_01, compiling. 
+[2018.02.15-09.58.49:675][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2018.02.15-09.58.49:681][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.02.15-09.58.49:687][753]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial_3, compiling. 
+[2018.02.15-09.58.50:525][753]TextureStreamingBuild: Display: Compiling optional shaders took 0.944 seconds.
+[2018.02.15-09.58.50:569][753]LogLevel: Display: Export Material TexCoord Scales took 0.044 seconds.
+[2018.02.15-09.58.50:580][753]TextureStreamingBuild: Display: Build Texture Streaming took 0.011 seconds.
+[2018.02.15-09.58.50:595][753]LightingResults: New page: Lighting Build - 15 Feb 2018 09:58:50
+[2018.02.15-09.58.50:605][753]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.15-09.58.50:607][753]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.15-09.58.50:607][753]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.15-09.58.50:608][753]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.15-09.58.50:608][753]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10076
+[2018.02.15-09.58.55:124][753]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.15-09.58.55:124][753]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.15-09.58.55:124][753]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.15-09.58.55:124][753]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.15-09.58.55:124][753]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.15-09.58.55:248][753]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.15-09.58.55:248][753]MapCheck: New page: MainMap - 15 Feb 2018 09:58:55
+[2018.02.15-09.58.55:249][753]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.02.15-09.58.55:249][753]MapCheck: Warning: Pannel_810 Static mesh actor has NULL StaticMesh property 
+[2018.02.15-09.58.55:249][753]MapCheck: Warning: Pannel3 Static mesh actor has NULL StaticMesh property 
+[2018.02.15-09.58.55:291][753]MapCheck: Map check complete: 1 Error(s), 2 Warning(s), took 42.813ms to complete.
+[2018.02.15-09.58.55:313][753]LogEditorBuildUtils: Build time 0:06
+[2018.02.15-09.58.55:358][753]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2018.02.15-09.58.55:363][753]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2018.02.15-09.58.55:423][754]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DoorFrame_01, compiling. 
+[2018.02.15-09.58.55:432][754]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DoorFrame_01, compiling. 
+[2018.02.15-09.58.55:485][755]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2018.02.15-09.58.55:493][755]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2018.02.15-09.58.55:523][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2018.02.15-09.58.55:532][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2018.02.15-09.58.55:563][757]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2018.02.15-09.58.55:572][757]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2018.02.15-09.58.55:605][758]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.02.15-09.58.55:613][758]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.02.15-09.58.55:647][759]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_MaterialSphere_Plain, compiling. 
+[2018.02.15-09.58.55:656][759]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_MaterialSphere_Plain, compiling. 
+[2018.02.15-09.58.55:683][760]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Tech_Hex_Tile, compiling. 
+[2018.02.15-09.58.55:691][760]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Tech_Hex_Tile, compiling. 
+[2018.02.15-09.59.08:699][806]Job is a success!
+[2018.02.15-09.59.09:529][807]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.02.15-09.59.09:529][807]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.02.15-09.59.09:529][807]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.02.15-09.59.09:529][807]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.02.15-09.59.09:529][807]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.02.15-09.59.09:529][807]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.02.15-09.59.09:591][807]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X128)
+[2018.02.15-09.59.09:591][807]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X512)
+[2018.02.15-09.59.09:601][807]Lightmass on AMTX210-29: 11.1 sec total, 95 ms importing, 20 ms setup, 1.09 sec photons, 9.90 sec processing, 0 ms extra exporting [337/337 mappings]. Threads: 1:09 min total, 51.3 sec processing.
+[2018.02.15-09.59.09:635][807]LogStaticLightingSystem: Illumination: 18.7 sec (273 ms encoding lightmaps, 61 ms encoding shadowmaps)
+[2018.02.15-09.59.09:635][807]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 4 textures
+[2018.02.15-09.59.09:635][807]LogStaticLightingSystem: Shadowmap texture memory: 1.5 MB (0.2 MB streaming, 1.3 MB non-streaming), 2 textures
+[2018.02.15-09.59.10:133][807]DumpUnbuiltLightIteractions
+[2018.02.15-09.59.10:133][807]Lights with unbuilt interactions: 0
+[2018.02.15-09.59.10:133][807]
+[2018.02.15-09.59.10:134][807]Primitives with unbuilt interactions: 0
+[2018.02.15-09.59.10:153][808]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.15-09.59.10:153][808]MapCheck: New page: MainMap - 15 Feb 2018 09:59:10
+[2018.02.15-09.59.10:203][808]MapCheck: Warning: Pannel_810 Static mesh actor has NULL StaticMesh property 
+[2018.02.15-09.59.10:204][808]MapCheck: Warning: Pannel3 Static mesh actor has NULL StaticMesh property 
+[2018.02.15-09.59.10:277][808]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 124.552ms to complete.
+[2018.02.15-09.59.47:425][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.15-09.59.48:270][566]LogSavePackage: Save=389.32ms
+[2018.02.15-09.59.48:270][566]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMapAAC46AA946172A6ADBBF1586F6E0F0CB.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap'
+[2018.02.15-09.59.48:279][566]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap
+[2018.02.15-09.59.48:358][566]LogFileHelpers: Saving map 'MainMap' took 0.975
+[2018.02.15-09.59.48:362][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap_BuiltData" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap_BuiltData.uasset" SILENT=true
+[2018.02.15-09.59.48:549][566]LogSavePackage: Save=181.26ms
+[2018.02.15-09.59.48:549][566]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMap_BuiltData5E1F3E44456A4E806EB5448906A7BAF2.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMap_BuiltData.uasset'
+[2018.02.15-09.59.48:552][566]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMap_BuiltData.uasset
+[2018.02.15-09.59.49:134][612]LogTemp: Repeating last play command: Standalone Game
+[2018.02.15-09.59.49:229][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMap.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.02.15-09.59.49:644][612]LogSavePackage: Save=363.31ms
+[2018.02.15-09.59.49:644][612]LogSavePackage: Moving 'E:/GroupProject2018/Saved/UEDPCMainMapC589F2254D635EDC06635D9D01D73414.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMap.umap'
+[2018.02.15-09.59.49:646][612]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/UEDPCMainMap.umap
+[2018.02.15-09.59.49:651][612]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.02.15-10.00.24:125][ 21]LogEditorViewport: Clicking on Actor (LMB): DoorBP01_C (DoorBP2)
+[2018.02.15-10.00.24:238][ 30]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.15-10.00.33:025][ 29]LogEditorViewport: Clicking on Actor (LMB): DoorBP03_C (DoorBP03)
+[2018.02.15-10.00.44:152][204]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2018.02.15-10.00.46:268][379]LogMeshUtilities: Finished distance field build in 2.1s - 64x64x30 distance field, 12 triangles, Range [-0.1, 0.5], PhAT_FloorBox
+[2018.02.15-10.03.27:999][659]LogRenderer: Reallocating scene render targets to support 1280x900 Format 10 NumSamples 1 (Frame:1).
+[2018.02.15-10.03.54:093][630]BlueprintLog: New page: Compile DoorBP03
+[2018.02.15-10.03.55:174][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP03" FILE="E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset" SILENT=true
+[2018.02.15-10.03.55:289][630]LogSavePackage: Save=90.16ms
+[2018.02.15-10.03.55:289][630]LogSavePackage: Moving 'E:/GroupProject2018/Saved/DoorBP037B165DD34F798B5E388455B5E6CA69BE.tmp' to 'E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset'
+[2018.02.15-10.03.55:299][630]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset
+[2018.02.15-10.03.59:247][ 47]LogEditorViewport: Clicking on Actor (LMB): DoorBP03_C (DoorBP03)
+[2018.02.15-10.04.01:828][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.15-10.04.02:232][319]LogSavePackage: Save=378.05ms
+[2018.02.15-10.04.02:232][319]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMap3984B55241A72FFECD5E47846E95A0A8.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap'
+[2018.02.15-10.04.02:239][319]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap
+[2018.02.15-10.04.02:298][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap_BuiltData" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap_BuiltData.uasset" SILENT=true
+[2018.02.15-10.04.02:544][319]LogSavePackage: Save=174.18ms
+[2018.02.15-10.04.02:544][319]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMap_BuiltData522FAB384FDFF02DB7D8E6986CD8F264.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMap_BuiltData.uasset'
+[2018.02.15-10.04.02:547][319]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMap_BuiltData.uasset
+[2018.02.15-10.04.09:460][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.04.09:460][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-10.04.09:460][ 72]PIE: New page: PIE session: MainMap (15 Feb 2018 10:04:09)
+[2018.02.15-10.04.09:460][ 72]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainMap
+[2018.02.15-10.04.09:480][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019614s)
+[2018.02.15-10.04.09:480][ 72]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-10.04.09:480][ 72]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.02.15-10.04.09:481][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainMap.MainMap to /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap (0.020666s)
+[2018.02.15-10.04.09:498][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-10.04.09:508][ 72]LogInit: FAudioDevice initialized.
+[2018.02.15-10.04.09:557][ 72]LogLoad: Game class is 'NewGM_C'
+[2018.02.15-10.04.09:578][ 72]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.02.15-10.04.09
+[2018.02.15-10.04.09:579][ 72]LogWorld: Bringing up level for play took: 0.019660
+[2018.02.15-10.04.09:586][ 72]Cmd: stat FPS
+[2018.02.15-10.04.09:587][ 72]LogBlueprintUserMessages: [FPCamera_C_0] not working
+[2018.02.15-10.04.09:591][ 72]PIE: Play in editor start time for /Game/MyContent/Levels/UEDPIE_0_MainMap 0.03
+[2018.02.15-10.04.09:592][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.04.09:595][ 72]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0EAF
+[2018.02.15-10.04.09:595][ 72]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2018.02.15-10.04.09:642][ 72]LogRenderer: Reallocating scene render targets to support 1932x1116 Format 10 NumSamples 1 (Frame:1).
+[2018.02.15-10.04.14:307][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.04.14:372][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.10:474][  0]BlueprintLog: New page: Compile DoorBP03
+[2018.02.15-10.05.11:489][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP03" FILE="E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset" SILENT=true
+[2018.02.15-10.05.11:627][  0]LogSavePackage: Save=125.60ms
+[2018.02.15-10.05.11:627][  0]LogSavePackage: Moving 'E:/GroupProject2018/Saved/DoorBP03A6DACC164D992A1C1DC90AA0DC99B757.tmp' to 'E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset'
+[2018.02.15-10.05.11:632][  0]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset
+[2018.02.15-10.05.12:807][126]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.02.15-10.05.12:840][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.12:840][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-10.05.12:841][126]PIE: New page: PIE session: MainMap (15 Feb 2018 10:05:12)
+[2018.02.15-10.05.12:841][126]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainMap
+[2018.02.15-10.05.12:860][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019420s)
+[2018.02.15-10.05.12:860][126]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-10.05.12:861][126]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.02.15-10.05.12:861][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainMap.MainMap to /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap (0.020337s)
+[2018.02.15-10.05.12:883][126]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-10.05.12:895][126]LogInit: FAudioDevice initialized.
+[2018.02.15-10.05.12:937][126]LogLoad: Game class is 'NewGM_C'
+[2018.02.15-10.05.12:945][126]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.02.15-10.05.12
+[2018.02.15-10.05.12:946][126]LogWorld: Bringing up level for play took: 0.006940
+[2018.02.15-10.05.12:948][126]Cmd: stat FPS
+[2018.02.15-10.05.12:948][126]LogBlueprintUserMessages: [DoorBP4] true
+[2018.02.15-10.05.12:948][126]LogBlueprintUserMessages: [FPCamera_C_0] not working
+[2018.02.15-10.05.12:948][126]LogBlueprintUserMessages: [DoorBP03_1826] false
+[2018.02.15-10.05.12:952][126]PIE: Play in editor start time for /Game/MyContent/Levels/UEDPIE_0_MainMap -0.61
+[2018.02.15-10.05.12:952][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.12:955][126]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0EAF
+[2018.02.15-10.05.12:955][126]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2018.02.15-10.05.16:190][500]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.16:257][500]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.31:039][120]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.02.15-10.05.31:066][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.31:066][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-10.05.31:066][120]PIE: New page: PIE session: MainMap (15 Feb 2018 10:05:31)
+[2018.02.15-10.05.31:067][120]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainMap
+[2018.02.15-10.05.31:086][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019240s)
+[2018.02.15-10.05.31:086][120]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-10.05.31:086][120]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2018.02.15-10.05.31:087][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainMap.MainMap to /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap (0.020224s)
+[2018.02.15-10.05.31:105][120]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-10.05.31:114][120]LogInit: FAudioDevice initialized.
+[2018.02.15-10.05.31:157][120]LogLoad: Game class is 'NewGM_C'
+[2018.02.15-10.05.31:165][120]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.02.15-10.05.31
+[2018.02.15-10.05.31:166][120]LogWorld: Bringing up level for play took: 0.007447
+[2018.02.15-10.05.31:168][120]Cmd: stat FPS
+[2018.02.15-10.05.31:168][120]LogBlueprintUserMessages: [DoorBP4] true
+[2018.02.15-10.05.31:168][120]LogBlueprintUserMessages: [FPCamera_C_0] not working
+[2018.02.15-10.05.31:168][120]LogBlueprintUserMessages: [DoorBP03_1826] false
+[2018.02.15-10.05.31:172][120]PIE: Play in editor start time for /Game/MyContent/Levels/UEDPIE_0_MainMap -0.39
+[2018.02.15-10.05.31:172][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.31:175][120]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0EAF
+[2018.02.15-10.05.31:175][120]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2018.02.15-10.05.32:932][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.05.33:017][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.06.44:946][455]BlueprintLog: New page: Compile DoorBP03
+[2018.02.15-10.06.46:039][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP03" FILE="E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset" SILENT=true
+[2018.02.15-10.06.46:146][455]LogSavePackage: Save=95.90ms
+[2018.02.15-10.06.46:146][455]LogSavePackage: Moving 'E:/GroupProject2018/Saved/DoorBP032D553C304897334A9232D98CC5E53642.tmp' to 'E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset'
+[2018.02.15-10.06.46:150][455]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Blueprints/DoorBP03.uasset
+[2018.02.15-10.06.47:554][597]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.02.15-10.06.47:590][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.06.47:590][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-10.06.47:590][597]PIE: New page: PIE session: MainMap (15 Feb 2018 10:06:47)
+[2018.02.15-10.06.47:591][597]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainMap
+[2018.02.15-10.06.47:611][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020020s)
+[2018.02.15-10.06.47:611][597]LogAIModule: Creating AISystem for world MainMap
+[2018.02.15-10.06.47:611][597]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2018.02.15-10.06.47:611][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainMap.MainMap to /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap (0.020834s)
+[2018.02.15-10.06.47:630][597]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-10.06.47:640][597]LogInit: FAudioDevice initialized.
+[2018.02.15-10.06.47:680][597]LogLoad: Game class is 'NewGM_C'
+[2018.02.15-10.06.47:688][597]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.02.15-10.06.47
+[2018.02.15-10.06.47:689][597]LogWorld: Bringing up level for play took: 0.007108
+[2018.02.15-10.06.47:693][597]Cmd: stat FPS
+[2018.02.15-10.06.47:694][597]LogBlueprintUserMessages: [DoorBP4] true
+[2018.02.15-10.06.47:694][597]LogBlueprintUserMessages: [FPCamera_C_0] not working
+[2018.02.15-10.06.47:694][597]LogBlueprintUserMessages: [DoorBP03_1826] false
+[2018.02.15-10.06.47:699][597]PIE: Play in editor start time for /Game/MyContent/Levels/UEDPIE_0_MainMap 0.137
+[2018.02.15-10.06.47:700][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.06.47:704][597]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Levels/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0EAF
+[2018.02.15-10.06.47:705][597]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2018.02.15-10.06.51:184][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.06.51:252][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Levels/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Levels/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.02.15-10.14.15:690][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap" FILE="E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/MainMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.15-10.14.16:586][315]LogSavePackage: Save=609.41ms
+[2018.02.15-10.14.16:587][315]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMap_Auto132CA35C84EB522F067D75B81BCB901AF.tmp' to 'E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/MainMap_Auto1.umap'
+[2018.02.15-10.14.16:677][315]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Saved/Autosaves/Game/MyContent/Levels/MainMap_Auto1.umap
+[2018.02.15-10.14.16:769][315]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Levels/MainMap' took 1.098
+[2018.02.15-10.14.16:769][315]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.098
+[2018.02.15-10.16.35:677][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Levels/MainMap" FILE="E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.15-10.16.36:067][757]LogSavePackage: Save=362.99ms
+[2018.02.15-10.16.36:068][757]LogSavePackage: Moving 'E:/GroupProject2018/Saved/MainMapFC4C6CF049E652E06AE371B8A52C4CB5.tmp' to 'E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap'
+[2018.02.15-10.16.36:072][757]LogSavePackage: Display: Finished SavePackage E:/GroupProject2018/Content/MyContent/Levels/MainMap.umap
+[2018.02.15-10.16.36:106][757]LogFileHelpers: Saving map 'MainMap' took 0.473
+[2018.02.15-10.16.37:353][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.15-10.16.37:578][874]Cmd: QUIT_EDITOR
+[2018.02.15-10.16.37:601][874]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.15-10.16.37:614][874]LogExit: Preparing to exit.
+[2018.02.15-10.16.38:873][874]PIE: UWidget::RemoveFromParent() called on '/Game/MyContent/Levels/MainMap.MainMap:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.15-10.16.38:889][874]LogExit: Editor shut down
+[2018.02.15-10.16.38:897][874]LogExit: Transaction tracking system shut down
+[2018.02.15-10.16.39:339][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.15-10.16.39:339][874]LogDirectoryWatcher: A directory notification for 'E:/GroupProject2018/Content/' was aborted.
+[2018.02.15-10.16.39:339][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.15-10.16.39:339][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.15-10.16.39:339][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.15-10.16.39:434][874]LogExit: Object subsystem successfully closed.
+[2018.02.15-10.16.39:454][874]LogD3D11RHI: Shutdown
+[2018.02.15-10.16.39:454][874]LogD3D11RHI: CleanupD3DDevice
+[2018.02.15-10.16.39:457][874]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.15-10.16.39:484][874]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (550)
+[2018.02.15-10.16.39:484][874]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (548)
+[2018.02.15-10.16.39:484][874]LogModuleManager: Shutting down and abandoning module SequencerWidgets (546)
+[2018.02.15-10.16.39:484][874]LogModuleManager: Shutting down and abandoning module BlueprintGraph (544)
+[2018.02.15-10.16.39:484][874]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (542)
+[2018.02.15-10.16.39:485][874]LogModuleManager: Shutting down and abandoning module SynthBenchmark (540)
+[2018.02.15-10.16.39:485][874]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2018.02.15-10.16.39:485][874]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (536)
+[2018.02.15-10.16.39:485][874]LogModuleManager: Shutting down and abandoning module SceneOutliner (534)
+[2018.02.15-10.16.39:485][874]LogModuleManager: Shutting down and abandoning module AddContentDialog (532)
+[2018.02.15-10.16.39:485][874]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.02.15-10.16.39:486][874]LogModuleManager: Shutting down and abandoning module WidgetCarousel (531)
+[2018.02.15-10.16.39:487][874]LogModuleManager: Shutting down and abandoning module EditorWidgets (528)
+[2018.02.15-10.16.39:487][874]LogModuleManager: Shutting down and abandoning module CollectionManager (526)
+[2018.02.15-10.16.39:487][874]LogDirectoryWatcher: A directory notification for 'E:/GroupProject2018/Content/Collections/' was aborted.
+[2018.02.15-10.16.39:487][874]LogDirectoryWatcher: A directory notification for 'E:/GroupProject2018/Content/Developers/mh18amt/Collections/' was aborted.
+[2018.02.15-10.16.39:487][874]LogDirectoryWatcher: A directory notification for 'E:/GroupProject2018/Saved/Collections/' was aborted.
+[2018.02.15-10.16.39:487][874]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2018.02.15-10.16.39:487][874]LogModuleManager: Shutting down and abandoning module FoliageEdit (522)
+[2018.02.15-10.16.39:487][874]LogModuleManager: Shutting down and abandoning module LandscapeEditor (520)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module MeshPaintMode (518)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (516)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module ActorPickerMode (514)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module GeometryMode (512)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module TextureAlignMode (510)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module BspMode (508)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (506)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module HardwareSurvey (504)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (502)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module AutomationWorker (500)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (498)
+[2018.02.15-10.16.39:488][874]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (496)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module PlacementMode (495)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (492)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (490)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (488)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (486)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (484)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module Media (483)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module CharacterAI (478)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module AudioCapture (476)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module SequenceRecorder (475)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module SmartSnapping (472)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module SessionServices (470)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module ViewportSnapping (468)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module ViewportInteraction (466)
+[2018.02.15-10.16.39:489][874]LogModuleManager: Shutting down and abandoning module ClothPainter (464)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module LogVisualizer (462)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module IntroTutorials (460)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (459)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (456)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (454)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (452)
+[2018.02.15-10.16.39:490][874]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (451)
+[2018.02.15-10.16.40:254][874]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (448)
+[2018.02.15-10.16.40:254][874]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (446)
+[2018.02.15-10.16.40:254][874]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (444)
+[2018.02.15-10.16.40:254][874]LogModuleManager: Shutting down and abandoning module InputBindingEditor (442)
+[2018.02.15-10.16.40:255][874]LogModuleManager: Shutting down and abandoning module MergeActors (440)
+[2018.02.15-10.16.40:256][874]LogModuleManager: Shutting down and abandoning module SizeMap (438)
+[2018.02.15-10.16.40:256][874]LogModuleManager: Shutting down and abandoning module TreeMap (436)
+[2018.02.15-10.16.40:256][874]LogModuleManager: Shutting down and abandoning module ReferenceViewer (434)
+[2018.02.15-10.16.40:256][874]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (432)
+[2018.02.15-10.16.40:256][874]LogModuleManager: Shutting down and abandoning module LocalizationService (431)
+[2018.02.15-10.16.40:256][874]LogModuleManager: Shutting down and abandoning module HardwareTargeting (428)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (426)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module UndoHistory (424)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module XmlParser (422)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module Blutility (420)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (418)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (417)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (414)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module SettingsEditor (412)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module ProjectLauncher (410)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module SessionFrontend (408)
+[2018.02.15-10.16.40:257][874]LogModuleManager: Shutting down and abandoning module ProfilerClient (406)
+[2018.02.15-10.16.40:258][874]LogModuleManager: Shutting down and abandoning module DeviceManager (404)
+[2018.02.15-10.16.40:258][874]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (403)
+[2018.02.15-10.16.40:321][874]LogModuleManager: Shutting down and abandoning module AutomationController (400)
+[2018.02.15-10.16.40:321][874]LogModuleManager: Shutting down and abandoning module AutomationWindow (398)
+[2018.02.15-10.16.40:322][874]LogModuleManager: Shutting down and abandoning module Layers (396)
+[2018.02.15-10.16.40:324][874]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (394)
+[2018.02.15-10.16.40:324][874]LogModuleManager: Shutting down and abandoning module DetailCustomizations (392)
+[2018.02.15-10.16.40:324][874]LogModuleManager: Shutting down and abandoning module PackagesDialog (390)
+[2018.02.15-10.16.40:325][874]LogModuleManager: Shutting down and abandoning module Persona (388)
+[2018.02.15-10.16.40:326][874]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (387)
+[2018.02.15-10.16.40:326][874]LogModuleManager: Shutting down and abandoning module AnimGraph (385)
+[2018.02.15-10.16.40:326][874]LogModuleManager: Shutting down and abandoning module Kismet (382)
+[2018.02.15-10.16.40:351][874]LogModuleManager: Shutting down and abandoning module ClassViewer (380)
+[2018.02.15-10.16.40:355][874]LogModuleManager: Shutting down and abandoning module Toolbox (378)
+[2018.02.15-10.16.40:355][874]LogModuleManager: Shutting down and abandoning module ModuleUI (376)
+[2018.02.15-10.16.40:356][874]LogModuleManager: Shutting down and abandoning module MovieSceneTools (374)
+[2018.02.15-10.16.40:356][874]LogModuleManager: Shutting down and abandoning module OutputLog (372)
+[2018.02.15-10.16.40:356][874]LogModuleManager: Shutting down and abandoning module GammaUI (370)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module Documentation (368)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (366)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module MovieScene (364)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module Niagara (362)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module NiagaraEditor (361)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module LauncherPlatform (356)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module AnalyticsET (354)
+[2018.02.15-10.16.40:357][874]LogModuleManager: Shutting down and abandoning module PortalServices (352)
+[2018.02.15-10.16.40:358][874]LogModuleManager: Shutting down and abandoning module PortalRpc (350)
+[2018.02.15-10.16.40:358][874]LogModuleManager: Shutting down and abandoning module MessagingRpc (348)
+[2018.02.15-10.16.40:358][874]LogModuleManager: Shutting down and abandoning module AIModule (346)
+[2018.02.15-10.16.40:358][874]LogModuleManager: Shutting down and abandoning module GameplayDebugger (345)
+[2018.02.15-10.16.40:358][874]LogModuleManager: Shutting down and abandoning module AITestSuite (343)
+[2018.02.15-10.16.40:358][874]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
+[2018.02.15-10.16.40:411][874]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
+[2018.02.15-10.16.40:411][874]LogModuleManager: Shutting down and abandoning module SubstanceSource (336)
+[2018.02.15-10.16.40:413][874]LogModuleManager: Shutting down and abandoning module SubstanceEditor (334)
+[2018.02.15-10.16.40:413][874]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2018.02.15-10.16.40:413][874]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2018.02.15-10.16.40:413][874]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2018.02.15-10.16.40:413][874]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2018.02.15-10.16.40:414][874]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2018.02.15-10.16.40:414][874]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2018.02.15-10.16.40:414][874]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2018.02.15-10.16.40:414][874]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2018.02.15-10.16.40:414][874]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2018.02.15-10.16.40:414][874]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2018.02.15-10.16.40:415][874]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2018.02.15-10.16.40:415][874]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2018.02.15-10.16.40:415][874]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2018.02.15-10.16.40:415][874]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2018.02.15-10.16.40:415][874]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2018.02.15-10.16.40:416][874]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2018.02.15-10.16.40:416][874]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2018.02.15-10.16.40:416][874]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2018.02.15-10.16.40:416][874]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.02.15-10.16.40:417][874]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.02.15-10.16.40:418][874]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.02.15-10.16.40:418][874]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2018.02.15-10.16.40:420][874]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2018.02.15-10.16.40:420][874]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2018.02.15-10.16.40:420][874]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2018.02.15-10.16.40:421][874]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2018.02.15-10.16.40:421][874]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2018.02.15-10.16.40:421][874]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2018.02.15-10.16.40:421][874]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2018.02.15-10.16.40:421][874]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2018.02.15-10.16.40:421][874]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2018.02.15-10.16.40:422][874]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2018.02.15-10.16.40:422][874]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2018.02.15-10.16.40:523][874]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2018.02.15-10.16.40:623][874]LogModuleManager: Shutting down and abandoning module SubstanceCore (244)
+[2018.02.15-10.16.40:623][874]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.02.15-10.16.40:623][874]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.02.15-10.16.40:623][874]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.02.15-10.16.40:623][874]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.02.15-10.16.40:623][874]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.02.15-10.16.40:624][874]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.02.15-10.16.40:626][874]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.02.15-10.16.40:626][874]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.02.15-10.16.40:626][874]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.02.15-10.16.40:627][874]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.02.15-10.16.40:631][874]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.02.15-10.16.40:631][874]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.02.15-10.16.40:631][874]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.02.15-10.16.40:631][874]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.02.15-10.16.40:632][874]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.02.15-10.16.40:633][874]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.02.15-10.16.40:633][874]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.02.15-10.16.40:633][874]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.02.15-10.16.40:633][874]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.02.15-10.16.40:640][874]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.02.15-10.16.40:641][874]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.02.15-10.16.40:645][874]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.15-10.16.40:663][874]LogDerivedDataCache: Shutdown
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.15-10.16.40:663][874]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.15-10.16.40:664][874]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.15-10.16.40:665][874]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.15-10.16.40:666][874]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.15-10.16.40:667][874]LogOnline: Display: Unloading online subsystem: NULL
+[2018.02.15-10.16.40:667][874]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.15-10.16.40:668][874]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.15-10.16.40:668][874]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.15-10.16.40:668][874]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B569934DC-428B-4D8E-A8AF-2C913AD6B7A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=a990518c42cda1d6681028bb0d37a3c7%7C%7Cd60b67a1-8e29-424b-bc36-ad8df5c76eaa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.15-10.16.40:699][874]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.15-10.16.40:702][874]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.15-10.16.40:703][874]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.15-10.16.40:703][874]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.15-10.16.40:703][874]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.15-10.16.40:703][874]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.15-10.16.40:703][874]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.15-10.16.40:703][874]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.15-10.16.40:709][874]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.15-10.16.40:710][874]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.15-10.16.40:710][874]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.15-10.16.40:710][874]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.15-10.16.40:710][874]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.15-10.16.40:720][874]LogExit: Exiting.
+[2018.02.15-10.16.40:750][874]Log file closed, 02/15/18 10:16:40

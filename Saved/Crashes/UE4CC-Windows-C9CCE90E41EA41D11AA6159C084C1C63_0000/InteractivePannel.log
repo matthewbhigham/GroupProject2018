@@ -1,0 +1,1113 @@
+﻿Log file open, 09/27/17 20:57:25
+LogInit:Display: Running engine for game: InteractivePannel
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1240304529) SRandInit(1240304529).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087412
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.27-19.57.26:058][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.27-19.57.26:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.27-19.57.26:066][  0]LogInit: Computer: DESKTOP-9P7VLL8
+[2017.09.27-19.57.26:066][  0]LogInit: User: xbedd
+[2017.09.27-19.57.26:066][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.27-19.57.26:066][  0]LogInit: High frequency timer resolution =3.421876 MHz
+[2017.09.27-19.57.26:066][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.27-19.57.26:066][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.27-19.57.26:066][  0]LogMemory: Process Physical Memory: 275.02 MB used, 275.02 MB peak
+[2017.09.27-19.57.26:066][  0]LogMemory: Process Virtual Memory: 266.76 MB used, 266.76 MB peak
+[2017.09.27-19.57.26:066][  0]LogMemory: Physical Memory: 6731.95 MB used,  9601.89 MB free, 16333.84 MB total
+[2017.09.27-19.57.26:066][  0]LogMemory: Virtual Memory: 629.36 MB used,  9601.89 MB free, 134217728.00 MB total
+[2017.09.27-19.57.26:117][  0]LogInit: Using OS detected language (en-GB).
+[2017.09.27-19.57.26:117][  0]LogInit: Using OS detected locale (en-GB).
+[2017.09.27-19.57.26:122][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.09.27-19.57.27:209][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.27-19.57.27:225][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2017.09.27-19.57.27:225][  0]LogD3D11RHI:       8168/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.09.27-19.57.27:227][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.27-19.57.27:227][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.27-19.57.27:227][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.27-19.57.27:232][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.27-19.57.27:232][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.27-19.57.27:232][  0]LogWindows: EnumDisplayDevices:
+[2017.09.27-19.57.27:233][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2017.09.27-19.57.27:233][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2017.09.27-19.57.27:233][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2017.09.27-19.57.27:233][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.09.27-19.57.27:233][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.09.27-19.57.27:234][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.09.27-19.57.27:234][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.09.27-19.57.27:234][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2017.09.27-19.57.27:234][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.9.2 (internal:22.19.677.1, unified:22.19.677.1)
+[2017.09.27-19.57.27:234][  0]LogD3D11RHI:      Driver Date: 9-18-2017
+[2017.09.27-19.57.27:234][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.27-19.57.27:257][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.27-19.57.27:268][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.09.27-19.57.27:268][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../UE4 Projects/InteractivePannel/Intermediate/Shaders/WorkingDirectory/9916/).
+[2017.09.27-19.57.27:268][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/xbedd/AppData/Local/Temp/UnrealShaderWorkingDir/309DE0844E66D0FC594E93ABD879C5A1/'.
+[2017.09.27-19.57.27:268][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.27-19.57.28:230][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.27-19.57.28:276][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.27-19.57.28:323][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.27-19.57.28:368][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.27-19.57.28:414][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.27-19.57.28:459][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.27-19.57.28:505][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.27-19.57.28:550][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.27-19.57.28:589][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.27-19.57.28:633][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.27-19.57.28:677][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.27-19.57.28:722][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.27-19.57.28:767][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.27-19.57.28:812][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.27-19.57.28:857][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.27-19.57.28:946][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.27-19.57.28:946][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.27-19.57.28:984][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.27-19.57.29:065][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.27-19.57.29:086][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.27-19.57.29:131][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.27-19.57.29:176][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.27-19.57.29:222][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.27-19.57.29:266][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.27-19.57.29:266][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.27-19.57.29:666][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.27-19.57.29:753][  0]LogDerivedDataCache: Loaded boot cache 0.09s 91MB C:/Users/xbedd/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.27-19.57.29:753][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/xbedd/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.27-19.57.29:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4 Projects/InteractivePannel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.27-19.57.29:753][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.27-19.57.29:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE4 Projects/InteractivePannel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.27-19.57.29:753][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.27-19.57.29:767][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.27-19.57.29:780][  0]LogDerivedDataCache: Using Local data cache path C:/Users/xbedd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.27-19.57.29:788][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.27-19.57.29:788][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.27-19.57.29:790][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.27-19.57.29:790][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.27-19.57.30:159][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.27-19.57.30:248][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.27-19.57.30:396][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.27-19.57.30:443][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.27-19.57.30:500][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.27-19.57.30:500][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.27-19.57.30:500][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.27-19.57.31:052][  0]LogNetVersion: InteractivePannel , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2969320207)
+[2017.09.27-19.57.31:104][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2017.09.27-19.57.31:158][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038677 seconds
+[2017.09.27-19.57.31:163][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.27-19.57.31:163][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.27-19.57.31:163][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.27-19.57.31:205][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.27-19.57.33:907][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.09.27-19.57.33:938][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.27-19.57.33:978][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.27-19.57.34:546][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.27-19.57.34:974][  0]SourceControl: Info Source control is disabled
+[2017.09.27-19.57.35:035][  0]SourceControl: Info Source control is disabled
+[2017.09.27-19.57.35:091][  0]SourceControl: Info Source control is disabled
+[2017.09.27-19.57.35:146][  0]SourceControl: Info Source control is disabled
+[2017.09.27-19.57.35:867][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.27-19.57.36:570][  0]LogEngine: Initializing Engine...
+[2017.09.27-19.57.36:595][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.09.27-19.57.36:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.27-19.57.36:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.27-19.57.36:943][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.27-19.57.36:960][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-19.57.36:979][  0]LogInit: FAudioDevice initialized.
+[2017.09.27-19.57.37:019][  0]LogDerivedDataCache: Saved boot cache 0.04s 91MB C:/Users/xbedd/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.27-19.57.37:024][  0]LogInit: Texture streaming: Enabled
+[2017.09.27-19.57.37:090][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.27-19.57.37:104][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={09282FDB-4DB0-368C-0824-7A894D570211}
+[2017.09.27-19.57.37:319][  0]LogInit: Transaction tracking system initialized
+[2017.09.27-19.57.37:605][  0]BlueprintLog: New page: Editor Load
+[2017.09.27-19.57.38:507][  0]LocalizationService: Info Localization service is disabled
+[2017.09.27-19.57.39:191][  0]LogConsoleResponse:Display: 
+[2017.09.27-19.57.39:313][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.27-19.57.39:313][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.27-19.57.40:306][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/InteractivePannel/Content/' took 0.02s
+[2017.09.27-19.57.40:353][  0]SourceControl: Info Source control is disabled
+[2017.09.27-19.57.40:353][  0]Cmd: MAP LOAD FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.27-19.57.40:354][  0]LightingResults: New page: Lighting Build
+[2017.09.27-19.57.40:395][  0]MapCheck: New page: Map Check
+[2017.09.27-19.57.40:395][  0]LightingResults: New page: Lighting Build
+[2017.09.27-19.57.40:946][  0]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-19.57.40:965][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.27-19.57.40:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.27-19.57.41:093][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.757ms to complete.
+[2017.09.27-19.57.41:093][  0]LogFileHelpers: Loading map 'MainMap' took 0.740
+[2017.09.27-19.57.41:362][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.27-19.57.41:438][  0]LogCollectionManager: Loaded 0 collections in 0.001452 seconds
+[2017.09.27-19.57.41:543][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/InteractivePannel/Saved/Collections/' took 0.01s
+[2017.09.27-19.57.41:543][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/InteractivePannel/Content/Developers/xbedd/Collections/' took 0.01s
+[2017.09.27-19.57.41:543][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/InteractivePannel/Content/Collections/' took 0.01s
+[2017.09.27-19.57.41:543][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.27-19.57.41:552][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2344 classes and 499 folders.
+[2017.09.27-19.57.41:611][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.27-19.57.41:697][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.27-19.57.41:702][  0]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.27-19.57.41:706][  0]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.27-19.57.41:708][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.27-19.57.41:778][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2017.09.27-19.57.41:821][  0]LogRenderer: Reallocating scene render targets to support 1452x936 NumSamples 1 (Frame:1).
+[2017.09.27-19.57.41:952][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.27-19.57.42:020][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.27-19.57.42:020][  0]LogLoad: (Engine Initialization) Total time: 17.98 seconds
+[2017.09.27-19.57.42:020][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.09.27-19.57.42:020][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.27-19.57.42:020][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.27-19.57.42:031][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.27-19.57.42:033][  0]LogOcInput: OculusInput pre-init called
+[2017.09.27-19.57.42:033][  0]LogHMD: Starting GearVRController plugin
+[2017.09.27-19.57.42:048][  0]LogAssetRegistry: Asset discovery search completed in 10.9651 seconds
+[2017.09.27-19.57.42:050][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.27-19.57.42:050][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.09.27-19.57.42:052][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.27-19.57.42:103][  0]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.27-19.57.43:104][ 45]LogSlate: Took 0.000471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.27-19.58.00:781][911]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.27-19.58.01:140][911]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.09.27-19.58.01:707][911]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.27-19.58.03:439][990]LogSlate: Took 0.000443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.27-19.58.17:980][780]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D3)
+[2017.09.27-19.58.28:119][264]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D4)
+[2017.09.27-19.58.36:095][647]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D6)
+[2017.09.27-19.58.48:124][254]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D5)
+[2017.09.27-19.59.19:424][748]BlueprintLog: New page: Compile Monitor
+[2017.09.27-19.59.19:589][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-19.59.19:739][748]LogSavePackage: Save=121.90ms
+[2017.09.27-19.59.19:739][748]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor6DB9F94D4B4CD39AEE334480DA45C0AC.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-19.59.19:743][748]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-19.59.19:751][748]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-19.59.24:055][948]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D4)
+[2017.09.27-19.59.43:027][894]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D6)
+[2017.09.27-19.59.58:323][676]BlueprintLog: New page: Compile Monitor
+[2017.09.27-19.59.58:485][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-19.59.58:621][676]LogSavePackage: Save=123.39ms
+[2017.09.27-19.59.58:621][676]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor0A9843AC4A3576E5743721BD9FB3B8AC.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-19.59.58:625][676]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-19.59.58:633][676]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.00.03:711][921]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D4)
+[2017.09.27-20.00.04:446][954]Cmd: DELETE
+[2017.09.27-20.00.04:446][954]Cmd: ACTOR DELETE
+[2017.09.27-20.00.04:447][954]LogEditorActor: Deleted Actor: SceneCapture2D
+[2017.09.27-20.00.04:462][954]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.09.27-20.00.30:062][763]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.00.30:215][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.00.30:356][763]LogSavePackage: Save=128.19ms
+[2017.09.27-20.00.30:356][763]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorC21A59A74E7802341F411F942A0B9DF7.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.00.30:361][763]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.00.30:366][763]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.00.33:296][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.00.33:296][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.00.33:297][967]PIE: New page: PIE session: MainMap (27 Sep 2017 22:00:33)
+[2017.09.27-20.00.33:297][967]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.00.33:313][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016479s)
+[2017.09.27-20.00.33:314][967]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.00.33:314][967]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.09.27-20.00.33:314][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.017260s)
+[2017.09.27-20.00.33:340][967]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.00.33:344][967]LogInit: FAudioDevice initialized.
+[2017.09.27-20.00.33:394][967]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.00.33:399][967]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.00.33
+[2017.09.27-20.00.33:400][967]LogWorld: Bringing up level for play took: 0.004208
+[2017.09.27-20.00.33:445][967]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.27-20.00.33:447][967]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.821
+[2017.09.27-20.00.33:447][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.00.33:450][967]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.00.33:450][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.00.44:091][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.00.44:136][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.00.57:887][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.00.57:887][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.00.57:887][378]PIE: New page: PIE session: MainMap (27 Sep 2017 22:00:57)
+[2017.09.27-20.00.57:887][378]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.00.57:905][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017341s)
+[2017.09.27-20.00.57:905][378]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.00.57:905][378]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.09.27-20.00.57:905][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.018099s)
+[2017.09.27-20.00.57:930][378]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.00.57:935][378]LogInit: FAudioDevice initialized.
+[2017.09.27-20.00.58:050][378]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.00.58:055][378]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.00.58
+[2017.09.27-20.00.58:055][378]LogWorld: Bringing up level for play took: 0.004279
+[2017.09.27-20.00.58:063][378]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.563
+[2017.09.27-20.00.58:063][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.00.58:070][378]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.00.58:070][378]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.00.58:128][378]LogRenderer: Reallocating scene render targets to support 1932x1116 NumSamples 1 (Frame:1).
+[2017.09.27-20.01.33:376][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.33:435][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.37:466][223]LogSavePackage: Save=408.52ms
+[2017.09.27-20.01.37:466][223]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/UEDPCMainMap8A348EDC476BBC9263516A8DB3255330.tmp' to '../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Maps/UEDPCMainMap.umap'
+[2017.09.27-20.01.37:469][223]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Maps/UEDPCMainMap.umap
+[2017.09.27-20.01.37:473][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/MainMap_BuiltData" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.09.27-20.01.37:586][223]LogSavePackage: Save=98.97ms
+[2017.09.27-20.01.37:586][223]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMap_BuiltData91DB8B154C138E501E1719ABCA62D517.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset'
+[2017.09.27-20.01.37:588][223]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset
+[2017.09.27-20.01.37:594][223]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.09.27-20.01.39:514][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.39:514][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.01.39:514][371]PIE: New page: SIE session: MainMap (27 Sep 2017 22:01:39)
+[2017.09.27-20.01.39:514][371]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.01.39:531][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016812s)
+[2017.09.27-20.01.39:531][371]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.01.39:531][371]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.09.27-20.01.39:531][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.017568s)
+[2017.09.27-20.01.39:556][371]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.01.39:561][371]LogInit: FAudioDevice initialized.
+[2017.09.27-20.01.39:712][371]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.01.39:717][371]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.01.39
+[2017.09.27-20.01.39:717][371]LogWorld: Bringing up level for play took: 0.003812
+[2017.09.27-20.01.39:718][371]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 1.093
+[2017.09.27-20.01.39:747][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.44:738][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.44:772][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.46:578][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.46:578][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.01.46:578][673]PIE: New page: PIE session: MainMap (27 Sep 2017 22:01:46)
+[2017.09.27-20.01.46:579][673]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.01.46:595][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016319s)
+[2017.09.27-20.01.46:595][673]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.01.46:596][673]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.09.27-20.01.46:596][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.017153s)
+[2017.09.27-20.01.46:631][673]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.01.46:634][673]LogInit: FAudioDevice initialized.
+[2017.09.27-20.01.46:670][673]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.01.46:675][673]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.01.46
+[2017.09.27-20.01.46:676][673]LogWorld: Bringing up level for play took: 0.004036
+[2017.09.27-20.01.46:677][673]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.052
+[2017.09.27-20.01.46:677][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.46:679][673]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.01.46:679][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.01.47:898][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.47:948][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.01.58:249][263]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.01.58:412][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.01.58:555][263]LogSavePackage: Save=130.87ms
+[2017.09.27-20.01.58:555][263]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor5416FE204B703F59039E36896A854167.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.01.58:559][263]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.01.58:564][263]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.02.00:853][384]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.02.01:019][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.02.01:160][384]LogSavePackage: Save=129.24ms
+[2017.09.27-20.02.01:160][384]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor37D2E81340DD0FF02AED0C82A702F035.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.02.01:164][384]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.02.01:170][384]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.02.02:197][440]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.02.02:214][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.02.02:214][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.02.02:214][440]PIE: New page: PIE session: MainMap (27 Sep 2017 22:02:02)
+[2017.09.27-20.02.02:214][440]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.02.02:231][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016373s)
+[2017.09.27-20.02.02:231][440]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.02.02:231][440]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.09.27-20.02.02:231][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.017150s)
+[2017.09.27-20.02.02:257][440]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.02.02:261][440]LogInit: FAudioDevice initialized.
+[2017.09.27-20.02.02:294][440]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.02.02:299][440]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.02.02
+[2017.09.27-20.02.02:300][440]LogWorld: Bringing up level for play took: 0.004006
+[2017.09.27-20.02.02:301][440]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.325
+[2017.09.27-20.02.02:301][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.02.02:303][440]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.02.02:303][440]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.02.20:135][603]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.02.20:170][603]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.15:430][449]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.03.15:595][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.03.15:740][449]LogSavePackage: Save=132.85ms
+[2017.09.27-20.03.15:740][449]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor5A612BEC4874841CBB01F0B6C9A68615.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.03.15:745][449]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.03.15:750][449]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.03.16:424][486]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.03.16:443][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.16:444][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.03.16:444][486]PIE: New page: PIE session: MainMap (27 Sep 2017 22:03:16)
+[2017.09.27-20.03.16:444][486]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.03.16:460][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016025s)
+[2017.09.27-20.03.16:460][486]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.03.16:461][486]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.09.27-20.03.16:461][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.016994s)
+[2017.09.27-20.03.16:487][486]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.03.16:491][486]LogInit: FAudioDevice initialized.
+[2017.09.27-20.03.16:526][486]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.03.16:531][486]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.03.16
+[2017.09.27-20.03.16:531][486]LogWorld: Bringing up level for play took: 0.004243
+[2017.09.27-20.03.16:532][486]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.093
+[2017.09.27-20.03.16:532][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.16:533][486]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.03.16:533][486]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.03.19:112][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.19:164][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.39:214][644]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.03.39:251][644]LogBlueprint:Error: [Compiler Monitor] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2017.09.27-20.03.39:253][644]LogBlueprint:Error: [Compiler Monitor] Error The current value (0, 0, 0) of the ' New Rotation ' pin is invalid: 'New Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.27-20.03.39:443][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.03.39:570][644]LogSavePackage: Save=114.68ms
+[2017.09.27-20.03.39:570][644]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor56B1C2FE403F41E224494B937B0D7656.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.03.39:574][644]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.03.39:580][644]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2017.09.27-20.03.39:580][644]BlueprintEditorCompileResults:Error: Error The current value (0, 0, 0) of the ' New Rotation ' pin is invalid: 'New Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.27-20.03.39:580][644]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.03.39:584][644]LogBlueprint:Warning: [Compiler Monitor] Warning [0375.54] Compile of Monitor failed. 2 Fatal Issue(s) 0 Warning(s) [in 370 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.03.40:563][697]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.03.40:580][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.40:580][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.03.42:452][697]PIE: New page: PIE session: MainMap (27 Sep 2017 22:03:42)
+[2017.09.27-20.03.42:452][697]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.03.42:468][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015958s)
+[2017.09.27-20.03.42:468][697]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.03.42:469][697]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.09.27-20.03.42:469][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.016765s)
+[2017.09.27-20.03.42:495][697]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.03.42:499][697]LogInit: FAudioDevice initialized.
+[2017.09.27-20.03.42:533][697]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.03.42:539][697]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.03.42
+[2017.09.27-20.03.42:539][697]LogWorld: Bringing up level for play took: 0.004139
+[2017.09.27-20.03.42:541][697]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 1.915
+[2017.09.27-20.03.42:541][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.42:542][697]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.03.42:542][697]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.03.43:392][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.03.43:441][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.04.50:930][232]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.04.51:094][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.04.51:234][232]LogSavePackage: Save=126.54ms
+[2017.09.27-20.04.51:234][232]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorA02E0C24447EC24E093CCC825C6102E2.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.04.51:239][232]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.04.51:243][232]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.04.52:800][314]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.04.52:817][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.04.52:817][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.04.52:817][314]PIE: New page: PIE session: MainMap (27 Sep 2017 22:04:52)
+[2017.09.27-20.04.52:817][314]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.04.52:834][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016543s)
+[2017.09.27-20.04.52:834][314]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.04.52:834][314]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.09.27-20.04.52:834][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.017383s)
+[2017.09.27-20.04.52:862][314]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.04.52:866][314]LogInit: FAudioDevice initialized.
+[2017.09.27-20.04.52:896][314]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.04.52:900][314]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.04.52
+[2017.09.27-20.04.52:901][314]LogWorld: Bringing up level for play took: 0.003853
+[2017.09.27-20.04.52:902][314]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.277
+[2017.09.27-20.04.52:902][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.04.52:904][314]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.04.52:904][314]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.04.59:959][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.05.00:000][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.05.09:839][248]LogEditorTransaction: Undo Move Node
+[2017.09.27-20.07.26:898][545]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.07.26:932][545]LogBlueprint:Error: [Compiler Monitor] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.09.27-20.07.27:126][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.07.27:234][545]LogSavePackage: Save=97.24ms
+[2017.09.27-20.07.27:234][545]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorAA1DD25D439E6CB7F58BBFB700456084.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.07.27:239][545]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.07.27:244][545]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.09.27-20.07.27:244][545]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.07.27:248][545]LogBlueprint:Warning: [Compiler Monitor] Warning [0603.21] Compile of Monitor failed. 1 Fatal Issue(s) 0 Warning(s) [in 349 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.07.35:148][969]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.27-20.07.50:610][772]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.07.50:777][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.07.50:896][772]LogSavePackage: Save=106.40ms
+[2017.09.27-20.07.50:896][772]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor2C560D6F4B98C1E28C8FC99ADFF369EC.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.07.50:900][772]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.07.50:905][772]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.07.58:422][177]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.07.58:545][177]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.08.07:715][675]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.08.07:733][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.08.07:733][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.08.07:733][675]PIE: New page: PIE session: MainMap (27 Sep 2017 22:08:07)
+[2017.09.27-20.08.07:733][675]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.08.07:750][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016806s)
+[2017.09.27-20.08.07:750][675]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.08.07:750][675]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.09.27-20.08.07:750][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.017549s)
+[2017.09.27-20.08.07:777][675]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.08.07:781][675]LogInit: FAudioDevice initialized.
+[2017.09.27-20.08.07:810][675]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.08.07:815][675]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.08.07
+[2017.09.27-20.08.07:815][675]LogWorld: Bringing up level for play took: 0.003979
+[2017.09.27-20.08.07:816][675]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.809
+[2017.09.27-20.08.07:816][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.08.07:818][675]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.08.07:818][675]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.08.12:263][924]LogScript:Warning: Accessed None trying to read property NewVar_0
+	Monitor_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.Monitor_C_5
+	Function /Game/MyContent/Widgets/Monitor.Monitor_C:ExecuteUbergraph_Monitor:0721
+[2017.09.27-20.08.12:264][924]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_0 from function: 'ExecuteUbergraph_Monitor' from node: SetWorldTransform in graph: EventGraph in object: Monitor with description: Accessed None trying to read property NewVar_0
+[2017.09.27-20.08.12:264][924]LogScript:Warning: Accessed None
+	Monitor_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.Monitor_C_5
+	Function /Game/MyContent/Widgets/Monitor.Monitor_C:ExecuteUbergraph_Monitor:0736
+[2017.09.27-20.08.12:264][924]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Monitor' from node: SetWorldTransform in graph: EventGraph in object: Monitor with description: Accessed None
+[2017.09.27-20.08.12:701][949]LogScript:Warning: Accessed None trying to read property NewVar_0
+	Monitor_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.Monitor_C_5
+	Function /Game/MyContent/Widgets/Monitor.Monitor_C:ExecuteUbergraph_Monitor:0721
+[2017.09.27-20.08.12:702][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property NewVar_0 from function: 'ExecuteUbergraph_Monitor' from node: SetWorldTransform in graph: EventGraph in object: Monitor with description: Accessed None trying to read property NewVar_0
+[2017.09.27-20.08.12:702][949]LogScript:Warning: Accessed None
+	Monitor_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.Monitor_C_5
+	Function /Game/MyContent/Widgets/Monitor.Monitor_C:ExecuteUbergraph_Monitor:0736
+[2017.09.27-20.08.12:702][949]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Monitor' from node: SetWorldTransform in graph: EventGraph in object: Monitor with description: Accessed None
+[2017.09.27-20.08.15:087][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.08.15:139][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.11.17:034][234]LogSavePackage: Save=284.45ms
+[2017.09.27-20.11.17:034][234]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMap_Auto1D758E6714CCBFDB87380C09D42BEED56.tmp' to '../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Maps/MainMap_Auto1.umap'
+[2017.09.27-20.11.17:036][234]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Maps/MainMap_Auto1.umap
+[2017.09.27-20.11.17:039][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/MainMap' took 0.322
+[2017.09.27-20.11.17:039][234]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.322
+[2017.09.27-20.11.17:041][234]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/Widgets/Monitor] ([1] browsable assets)...
+[2017.09.27-20.11.17:041][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Widgets/Monitor]
+[2017.09.27-20.11.17:041][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Widgets/Monitor_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.27-20.11.17:154][234]LogSavePackage: Save=99.38ms
+[2017.09.27-20.11.17:154][234]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor_Auto1C974A9A64BE7EA41B8C8B7BD1877F848.tmp' to '../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Widgets/Monitor_Auto1.uasset'
+[2017.09.27-20.11.17:156][234]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Saved/Autosaves/Game/MyContent/Widgets/Monitor_Auto1.uasset
+[2017.09.27-20.11.17:156][234]LogFileHelpers: Auto-saving content packages took 0.117
+[2017.09.27-20.12.26:386][425]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D3)
+[2017.09.27-20.12.58:287][957]LogEditorViewport: Clicking on Actor (CTRL LMB): SceneCapture2D (SceneCapture2D3)
+[2017.09.27-20.12.59:209][  3]Cmd: EDIT COPY
+[2017.09.27-20.12.59:387][ 12]Cmd: EDIT COPY
+[2017.09.27-20.13.02:822][171]Cmd: EDIT COPY
+[2017.09.27-20.13.03:464][200]Cmd: EDIT PASTE
+[2017.09.27-20.13.30:058][330]BlueprintLog: New page: Compile Camera01
+[2017.09.27-20.13.30:387][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera01" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset" SILENT=true
+[2017.09.27-20.13.30:407][330]LogSavePackage: Save=17.76ms
+[2017.09.27-20.13.30:407][330]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera01092D34794E53B318B2DDF3A189445F24.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset'
+[2017.09.27-20.13.30:411][330]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset
+[2017.09.27-20.13.32:120][408]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D3)
+[2017.09.27-20.13.32:975][445]Cmd: DELETE
+[2017.09.27-20.13.32:975][445]Cmd: ACTOR DELETE
+[2017.09.27-20.13.40:785][445]LogEditorActor: Deleted Actor: SceneCapture2D
+[2017.09.27-20.13.40:802][445]LogEditorActor: Deleted 1 Actors (7.827 secs)
+[2017.09.27-20.14.16:583][343]Cmd: DELETE
+[2017.09.27-20.14.16:583][343]Cmd: ACTOR DELETE
+[2017.09.27-20.14.16:584][343]LogEditorActor: Deleted Actor: Brush
+[2017.09.27-20.14.16:617][343]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2017.09.27-20.14.17:128][369]LogEditorViewport: Clicking on Actor (LMB): Camera01_C (Camera01)
+[2017.09.27-20.14.18:326][433]Cmd: DELETE
+[2017.09.27-20.14.18:326][433]Cmd: ACTOR DELETE
+[2017.09.27-20.14.18:327][433]LogEditorActor: Deleted Actor: Brush
+[2017.09.27-20.14.18:358][433]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.09.27-20.14.18:788][456]LogEditorViewport: Clicking on Actor (LMB): Camera01_C (Camera01)
+[2017.09.27-20.15.33:865][ 21]LogEditorTransaction: Undo Make New Scene Root
+[2017.09.27-20.15.43:126][421]LogEditorTransaction: Undo Remove Components
+[2017.09.27-20.15.48:019][627]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.27-20.16.04:012][328]LogEditorViewport: Clicking Background
+[2017.09.27-20.16.04:664][357]LogEditorViewport: Clicking on Actor (LMB): Camera01_C (Camera01)
+[2017.09.27-20.16.18:488][992]BlueprintLog: New page: Compile Camera01
+[2017.09.27-20.16.18:870][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera01" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset" SILENT=true
+[2017.09.27-20.16.18:918][992]LogSavePackage: Save=33.13ms
+[2017.09.27-20.16.18:918][992]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera010EA21A76435DDE9BB800B28196EC38F5.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset'
+[2017.09.27-20.16.18:922][992]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset
+[2017.09.27-20.16.43:598][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/MainMap" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.27-20.16.43:940][ 66]LogSavePackage: Save=293.46ms
+[2017.09.27-20.16.43:940][ 66]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMapA8F4048A44C7C59A47C43CAF2D88B4AF.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap'
+[2017.09.27-20.16.43:944][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap
+[2017.09.27-20.16.43:973][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/MainMap_BuiltData" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.09.27-20.16.44:059][ 66]LogSavePackage: Save=71.98ms
+[2017.09.27-20.16.44:059][ 66]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMap_BuiltData727F2B1F4932B7BE316D1193517E9175.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset'
+[2017.09.27-20.16.44:062][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset
+[2017.09.27-20.16.45:807][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera02" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera02.uasset" SILENT=true
+[2017.09.27-20.16.45:821][ 93]LogSavePackage: Save=12.43ms
+[2017.09.27-20.16.45:822][ 93]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera02D7CD80834688E0427B010B9DB8BA117C.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera02.uasset'
+[2017.09.27-20.16.45:825][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera02.uasset
+[2017.09.27-20.16.45:836][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera03" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera03.uasset" SILENT=true
+[2017.09.27-20.16.45:850][ 93]LogSavePackage: Save=11.64ms
+[2017.09.27-20.16.45:850][ 93]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera038E3B3B044DC7027C26CD708B41873B51.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera03.uasset'
+[2017.09.27-20.16.45:854][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera03.uasset
+[2017.09.27-20.16.45:863][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera04" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera04.uasset" SILENT=true
+[2017.09.27-20.16.45:879][ 93]LogSavePackage: Save=12.96ms
+[2017.09.27-20.16.45:879][ 93]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera04E83A18664EDF54DED3FE558C8EEE0CE9.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera04.uasset'
+[2017.09.27-20.16.45:882][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera04.uasset
+[2017.09.27-20.16.45:886][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.16.45:999][ 93]LogSavePackage: Save=98.20ms
+[2017.09.27-20.16.45:999][ 93]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorF9BF52FA4CD5C213AE37DF8FEE0F6C68.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.16.46:003][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.18.11:321][708]BlueprintLog: New page: Compile Interact_Interface
+[2017.09.27-20.18.11:517][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Interact_Interface" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset" SILENT=true
+[2017.09.27-20.18.11:541][708]LogSavePackage: Save=9.20ms
+[2017.09.27-20.18.11:541][708]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Interact_InterfaceFEF8C1694C737C3C00E0EEB827D77727.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset'
+[2017.09.27-20.18.11:545][708]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset
+[2017.09.27-20.20.24:158][933]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.27-20.20.28:327][166]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.21.00:038][926]Cmd: EDIT CUT
+[2017.09.27-20.21.00:043][926]LogEditorActor: Deleted Actor: Camera01_C
+[2017.09.27-20.21.00:063][926]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.09.27-20.21.01:062][986]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.01:062][986]LogEditorTransaction: Undo Move Actors
+[2017.09.27-20.21.01:337][  0]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.01:337][  0]LogEditorTransaction: Undo Cut
+[2017.09.27-20.21.01:546][  4]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.01:546][  4]LogEditorTransaction: Undo Create Pin Link
+[2017.09.27-20.21.02:083][ 30]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.02:083][ 30]LogEditorTransaction: Undo Move Node
+[2017.09.27-20.21.02:329][ 42]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.02:329][ 42]LogEditorTransaction: Undo Add Node
+[2017.09.27-20.21.02:514][ 50]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.02:514][ 50]LogEditorTransaction: Undo Delete current selection
+[2017.09.27-20.21.02:707][ 59]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.02:707][ 59]LogEditorTransaction: Undo Add Node
+[2017.09.27-20.21.02:913][ 69]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.02:913][ 69]LogEditorTransaction: Undo Delete current selection
+[2017.09.27-20.21.03:503][ 99]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.03:503][ 99]LogEditorTransaction: Undo Add Node
+[2017.09.27-20.21.03:710][109]Cmd: TRANSACTION UNDO
+[2017.09.27-20.21.03:710][109]LogEditorTransaction: Undo Delete current selection
+[2017.09.27-20.21.05:758][220]LogEditorViewport: Clicking on Actor (LMB): Camera01_C (Camera01)
+[2017.09.27-20.21.06:427][256]Cmd: DELETE
+[2017.09.27-20.21.06:427][256]Cmd: ACTOR DELETE
+[2017.09.27-20.21.06:428][256]LogEditorActor: Deleted Actor: Camera01_C
+[2017.09.27-20.21.06:450][256]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.09.27-20.21.36:800][341]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D5)
+[2017.09.27-20.21.48:621][995]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.21.52:266][206]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.21.52:591][223]LogEditorViewport: Clicking on Actor (context menu): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.22.52:754][597]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.23.23:758][347]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.23.24:739][398]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.23.27:898][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/MainMap" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.27-20.23.28:248][572]LogSavePackage: Save=315.63ms
+[2017.09.27-20.23.28:248][572]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMap30A1533A4F8A53A0A5A12D8649BC1D0D.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap'
+[2017.09.27-20.23.28:252][572]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap
+[2017.09.27-20.23.28:279][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/MainMap_BuiltData" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset" SILENT=true
+[2017.09.27-20.23.28:364][572]LogSavePackage: Save=71.19ms
+[2017.09.27-20.23.28:364][572]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMap_BuiltData7D6DC8D2430E9B028894D1A43BD0B973.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset'
+[2017.09.27-20.23.28:366][572]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap_BuiltData.uasset
+[2017.09.27-20.23.30:664][704]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.23.30:691][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.23.30:691][704]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.27-20.23.30:691][704]LogPlayLevel: [PlayLevel] Compiling DoorBP01 before play...
+[2017.09.27-20.23.30:706][704]LogPlayLevel: [PlayLevel]   Compiling FPCamera as a dependent...
+[2017.09.27-20.23.31:035][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP01" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset" SILENT=true
+[2017.09.27-20.23.31:097][704]LogSavePackage: Save=48.97ms
+[2017.09.27-20.23.31:097][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP01B5AC938A48955BCC3A90129DCBAFCAB2.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset'
+[2017.09.27-20.23.31:101][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset
+[2017.09.27-20.23.31:104][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/FPCamera/FPCamera" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/FPCamera/FPCamera.uasset" SILENT=true
+[2017.09.27-20.23.31:255][704]LogSavePackage: Save=137.97ms
+[2017.09.27-20.23.31:255][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/FPCamera056EA51C4D5E52E57ACF48929F809374.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/FPCamera/FPCamera.uasset'
+[2017.09.27-20.23.31:259][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/FPCamera/FPCamera.uasset
+[2017.09.27-20.23.31:265][704]LogPlayLevel: [PlayLevel] Compiling DoorBP02 before play...
+[2017.09.27-20.23.31:436][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP02" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP02.uasset" SILENT=true
+[2017.09.27-20.23.31:511][704]LogSavePackage: Save=62.07ms
+[2017.09.27-20.23.31:512][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP0296BB86054A6DD14E526B18BF5E0EA570.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP02.uasset'
+[2017.09.27-20.23.31:516][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP02.uasset
+[2017.09.27-20.23.31:521][704]LogPlayLevel: [PlayLevel] Compiling DoorBP03 before play...
+[2017.09.27-20.23.31:539][704]LogPlayLevel: [PlayLevel]   Compiling Monitor02 as a dependent...
+[2017.09.27-20.23.31:772][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP03" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP03.uasset" SILENT=true
+[2017.09.27-20.23.31:848][704]LogSavePackage: Save=62.33ms
+[2017.09.27-20.23.31:848][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP036CD537BE43274FF1F0413A945C34E97E.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP03.uasset'
+[2017.09.27-20.23.31:852][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP03.uasset
+[2017.09.27-20.23.31:857][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor02" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor02.uasset" SILENT=true
+[2017.09.27-20.23.31:908][704]LogSavePackage: Save=36.41ms
+[2017.09.27-20.23.31:908][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor02E548F3444267B7DED6307E8DFF310136.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor02.uasset'
+[2017.09.27-20.23.31:912][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor02.uasset
+[2017.09.27-20.23.31:917][704]LogPlayLevel: [PlayLevel] Compiling Camera01 before play...
+[2017.09.27-20.23.32:204][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera01" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset" SILENT=true
+[2017.09.27-20.23.32:236][704]LogSavePackage: Save=17.11ms
+[2017.09.27-20.23.32:236][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera011778F7C549B5316F556F4AA1D61A4892.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset'
+[2017.09.27-20.23.32:240][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera01.uasset
+[2017.09.27-20.23.32:245][704]LogPlayLevel: [PlayLevel] Compiling Camera02 before play...
+[2017.09.27-20.23.32:368][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Camera02" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera02.uasset" SILENT=true
+[2017.09.27-20.23.32:391][704]LogSavePackage: Save=9.02ms
+[2017.09.27-20.23.32:391][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Camera021D36A8CC41D06AB596E14FABC02BF5D8.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera02.uasset'
+[2017.09.27-20.23.32:395][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Camera02.uasset
+[2017.09.27-20.23.32:400][704]LogPlayLevel: [PlayLevel] Compiling Monitor before play...
+[2017.09.27-20.23.32:546][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.23.32:657][704]LogSavePackage: Save=97.10ms
+[2017.09.27-20.23.32:657][704]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorEC00BD30472B4E410067D69D11CD058C.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.23.32:661][704]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.23.32:691][704]LogPlayLevel: PlayLevel: Blueprint regeneration took 2000 ms (8 blueprints)
+[2017.09.27-20.23.32:692][704]PIE: New page: PIE session: MainMap (27 Sep 2017 22:23:32)
+[2017.09.27-20.23.32:692][704]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.23.32:707][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015014s)
+[2017.09.27-20.23.32:708][704]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.23.32:708][704]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2017.09.27-20.23.32:708][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.016664s)
+[2017.09.27-20.23.32:739][704]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.23.32:744][704]LogInit: FAudioDevice initialized.
+[2017.09.27-20.23.32:779][704]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.23.32:783][704]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.23.32
+[2017.09.27-20.23.32:784][704]LogWorld: Bringing up level for play took: 0.003713
+[2017.09.27-20.23.32:785][704]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 2.16
+[2017.09.27-20.23.32:785][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.23.32:787][704]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.23.32:787][704]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.23.47:489][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.23.47:592][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.23.56:748][964]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D5)
+[2017.09.27-20.24.09:952][646]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.24.24:445][422]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.27-20.24.32:447][828]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D5)
+[2017.09.27-20.24.33:302][868]Cmd: DELETE
+[2017.09.27-20.24.33:302][868]Cmd: ACTOR DELETE
+[2017.09.27-20.24.33:303][868]LogEditorActor: Deleted Actor: SceneCapture2D
+[2017.09.27-20.24.33:324][868]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.09.27-20.24.36:109][ 44]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D6)
+[2017.09.27-20.24.36:745][ 84]Cmd: DELETE
+[2017.09.27-20.24.36:746][ 84]Cmd: ACTOR DELETE
+[2017.09.27-20.24.36:746][ 84]LogEditorActor: Deleted Actor: SceneCapture2D
+[2017.09.27-20.24.36:765][ 84]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.09.27-20.24.47:624][923]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.25.02:912][ 85]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.25.03:040][ 85]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.25.04:405][191]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.27-20.25.12:000][772]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.25.12:159][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.25.12:268][772]LogSavePackage: Save=96.12ms
+[2017.09.27-20.25.12:268][772]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorD29E137A45D5919B909DE69B27C7BA7B.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.25.12:272][772]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.25.12:276][772]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.25.13:519][870]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.25.13:546][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.25.13:546][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.25.13:546][870]PIE: New page: PIE session: MainMap (27 Sep 2017 22:25:13)
+[2017.09.27-20.25.13:546][870]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.25.13:560][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014424s)
+[2017.09.27-20.25.13:561][870]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.25.13:561][870]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.09.27-20.25.13:561][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.015229s)
+[2017.09.27-20.25.13:592][870]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.25.13:596][870]LogInit: FAudioDevice initialized.
+[2017.09.27-20.25.13:625][870]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.25.13:630][870]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.25.13
+[2017.09.27-20.25.13:630][870]LogWorld: Bringing up level for play took: 0.004460
+[2017.09.27-20.25.13:632][870]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 1.006
+[2017.09.27-20.25.13:632][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.25.13:634][870]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.25.13:634][870]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.25.35:261][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.25.35:354][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.25.43:674][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.27-20.25.43:738][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Camera01' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMesh' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SceneCaptureComponent2D' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Sphere_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SceneCaptureComponent2D_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMesh_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Camera01_C_1' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:441][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:442][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:442][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Camera01_C_0' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:442][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Camera01_C_287' or package '/Engine/Transient'.
+[2017.09.27-20.25.44:442][897]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Camera01_C_286' or package '/Engine/Transient'.
+[2017.09.27-20.26.33:565][490]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.26.33:587][490]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.26.33:587][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.26.33:587][490]PIE: New page: PIE session: MainMap (27 Sep 2017 22:26:33)
+[2017.09.27-20.26.33:587][490]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.26.33:601][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014293s)
+[2017.09.27-20.26.33:602][490]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.26.33:603][490]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2017.09.27-20.26.33:603][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.015657s)
+[2017.09.27-20.26.33:643][490]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.26.33:647][490]LogInit: FAudioDevice initialized.
+[2017.09.27-20.26.33:679][490]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.26.33:684][490]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.26.33
+[2017.09.27-20.26.33:684][490]LogWorld: Bringing up level for play took: 0.003759
+[2017.09.27-20.26.33:686][490]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 1.06
+[2017.09.27-20.26.33:686][490]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.26.33:688][490]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.26.33:688][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.26.43:768][312]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.26.43:856][312]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.27.09:848][221]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.27-20.27.20:785][ 29]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.27.20:955][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.27.21:062][ 29]LogSavePackage: Save=94.76ms
+[2017.09.27-20.27.21:062][ 29]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor446C2F6747CF7128DB7F9F9D9E2FC268.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.27.21:066][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.27.21:070][ 29]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.27.56:944][695]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.27.57:107][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.27.57:219][695]LogSavePackage: Save=99.43ms
+[2017.09.27-20.27.57:219][695]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorA6EB3C354321E2F3C7FBF88E46E9A272.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.27.57:223][695]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.27.57:227][695]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.27.58:651][805]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.27.58:670][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.27.58:670][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.27.58:671][805]PIE: New page: PIE session: MainMap (27 Sep 2017 22:27:58)
+[2017.09.27-20.27.58:671][805]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.27.58:686][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015272s)
+[2017.09.27-20.27.58:686][805]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.27.58:687][805]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.09.27-20.27.58:687][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.016196s)
+[2017.09.27-20.27.58:718][805]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.27.58:722][805]LogInit: FAudioDevice initialized.
+[2017.09.27-20.27.58:755][805]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.27.58:760][805]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.27.58
+[2017.09.27-20.27.58:761][805]LogWorld: Bringing up level for play took: 0.004632
+[2017.09.27-20.27.58:762][805]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.137
+[2017.09.27-20.27.58:763][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.27.58:764][805]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.27.58:765][805]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.28.06:801][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.28.06:896][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.28.08:486][570]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.27-20.28.22:698][574]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.29.07:811][816]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.29.11:997][141]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.29.12:015][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.29.12:015][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.29.12:016][141]PIE: New page: PIE session: MainMap (27 Sep 2017 22:29:12)
+[2017.09.27-20.29.12:016][141]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.29.12:029][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013401s)
+[2017.09.27-20.29.12:029][141]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.29.12:030][141]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2017.09.27-20.29.12:030][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.014143s)
+[2017.09.27-20.29.12:057][141]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.29.12:061][141]LogInit: FAudioDevice initialized.
+[2017.09.27-20.29.12:091][141]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.29.12:096][141]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.29.12
+[2017.09.27-20.29.12:096][141]LogWorld: Bringing up level for play took: 0.003739
+[2017.09.27-20.29.12:097][141]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.528
+[2017.09.27-20.29.12:098][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.29.12:100][141]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.29.12:100][141]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.29.20:833][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.29.20:924][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.01:223][930]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.30.01:392][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.30.01:509][930]LogSavePackage: Save=102.00ms
+[2017.09.27-20.30.01:509][930]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor05CBFD6F4B6793145B7F94914EB36B75.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.30.01:513][930]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.30.01:518][930]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.30.04:351][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.04:351][110]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.27-20.30.04:351][110]LogPlayLevel: [PlayLevel] Compiling MainMap before play...
+[2017.09.27-20.30.04:449][110]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2017.09.27-20.30.04:450][110]PIE: New page: PIE session: MainMap (27 Sep 2017 22:30:04)
+[2017.09.27-20.30.04:450][110]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.30.04:463][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012924s)
+[2017.09.27-20.30.04:463][110]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.30.04:463][110]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2017.09.27-20.30.04:463][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.013687s)
+[2017.09.27-20.30.04:502][110]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.30.04:506][110]LogInit: FAudioDevice initialized.
+[2017.09.27-20.30.04:546][110]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.30.04:551][110]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.30.04
+[2017.09.27-20.30.04:551][110]LogWorld: Bringing up level for play took: 0.003745
+[2017.09.27-20.30.04:552][110]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.074
+[2017.09.27-20.30.04:558][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.04:560][110]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.30.04:560][110]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.30.07:289][335]LogBlueprintUserMessages: [Monitor_C_4] Hello
+[2017.09.27-20.30.09:507][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.09:565][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.25:118][655]BlueprintLog: New page: Compile Monitor
+[2017.09.27-20.30.25:283][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.30.25:394][655]LogSavePackage: Save=99.30ms
+[2017.09.27-20.30.25:394][655]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MonitorCB23A2A44DD86BB823155098A7D373D5.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.30.25:398][655]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.30.25:402][655]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.27-20.30.26:644][747]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.30.30:706][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.30:706][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.30.30:706][ 14]PIE: New page: PIE session: MainMap (27 Sep 2017 22:30:30)
+[2017.09.27-20.30.30:706][ 14]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.30.30:719][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012870s)
+[2017.09.27-20.30.30:720][ 14]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.30.30:720][ 14]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.09.27-20.30.30:720][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.013643s)
+[2017.09.27-20.30.30:750][ 14]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.30.30:754][ 14]LogInit: FAudioDevice initialized.
+[2017.09.27-20.30.30:787][ 14]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.30.30:791][ 14]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.30.30
+[2017.09.27-20.30.30:791][ 14]LogWorld: Bringing up level for play took: 0.003644
+[2017.09.27-20.30.30:792][ 14]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.167
+[2017.09.27-20.30.30:799][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.30:801][ 14]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.30.30:801][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.30.37:428][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.30.37:474][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.32.11:699][946]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.27-20.32.26:770][114]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D7)
+[2017.09.27-20.32.36:173][806]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.32.44:604][467]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.32.44:623][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.32.44:624][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.32.44:624][467]PIE: New page: PIE session: MainMap (27 Sep 2017 22:32:44)
+[2017.09.27-20.32.44:624][467]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.32.44:638][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013853s)
+[2017.09.27-20.32.44:638][467]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.32.44:638][467]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.09.27-20.32.44:638][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.014714s)
+[2017.09.27-20.32.44:677][467]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.32.44:682][467]LogInit: FAudioDevice initialized.
+[2017.09.27-20.32.44:717][467]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.32.44:722][467]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.32.44
+[2017.09.27-20.32.44:722][467]LogWorld: Bringing up level for play took: 0.003967
+[2017.09.27-20.32.44:724][467]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.098
+[2017.09.27-20.32.44:724][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.32.44:725][467]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.32.44:726][467]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.32.51:485][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.32.51:576][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.28:892][700]BlueprintLog: New page: Compile MainMap
+[2017.09.27-20.33.41:415][643]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.33.41:434][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.41:434][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.33.41:434][643]PIE: New page: PIE session: MainMap (27 Sep 2017 22:33:41)
+[2017.09.27-20.33.41:434][643]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.33.41:449][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013799s)
+[2017.09.27-20.33.41:449][643]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.33.41:449][643]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2017.09.27-20.33.41:449][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.014677s)
+[2017.09.27-20.33.41:478][643]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.33.41:482][643]LogInit: FAudioDevice initialized.
+[2017.09.27-20.33.41:512][643]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.33.41:516][643]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.33.41
+[2017.09.27-20.33.41:517][643]LogWorld: Bringing up level for play took: 0.003510
+[2017.09.27-20.33.41:518][643]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 0.892
+[2017.09.27-20.33.41:518][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.41:520][643]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	FPCamera_C /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.FPCamera_C_0
+	Function /Game/MyContent/FPCamera/FPCamera.FPCamera_C:ExecuteUbergraph_FPCamera:0318
+[2017.09.27-20.33.41:520][643]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.33.48:361][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.48:450][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.56:612][757]BlueprintLog: New page: Compile DoorBP01
+[2017.09.27-20.33.56:802][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP01" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset" SILENT=true
+[2017.09.27-20.33.56:867][757]LogSavePackage: Save=51.12ms
+[2017.09.27-20.33.56:867][757]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP016AAA593D4A15260B5CE0B39EDE0784F2.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset'
+[2017.09.27-20.33.56:871][757]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset
+[2017.09.27-20.33.58:473][873]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.33.58:491][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.58:491][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.27-20.33.58:491][873]PIE: New page: PIE session: MainMap (27 Sep 2017 22:33:58)
+[2017.09.27-20.33.58:491][873]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.33.58:504][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012898s)
+[2017.09.27-20.33.58:504][873]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.33.58:504][873]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.09.27-20.33.58:505][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.013749s)
+[2017.09.27-20.33.58:535][873]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.33.58:538][873]LogInit: FAudioDevice initialized.
+[2017.09.27-20.33.58:568][873]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.33.58:573][873]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.33.58
+[2017.09.27-20.33.58:573][873]LogWorld: Bringing up level for play took: 0.003929
+[2017.09.27-20.33.58:574][873]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap -0.051
+[2017.09.27-20.33.58:574][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.33.58:576][873]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.34.04:446][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.34.04:532][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.34.54:641][ 98]BlueprintLog: New page: Compile Interact_Interface
+[2017.09.27-20.34.54:837][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Interact_Interface" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset" SILENT=true
+[2017.09.27-20.34.54:858][ 98]LogSavePackage: Save=7.25ms
+[2017.09.27-20.34.54:858][ 98]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Interact_Interface17D7B2914A8212A11C9323ACC24B05C7.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset'
+[2017.09.27-20.34.54:862][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset
+[2017.09.27-20.35.41:881][691]BlueprintLog: New page: Compile Interact_Interface
+[2017.09.27-20.35.42:066][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Interact_Interface" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset" SILENT=true
+[2017.09.27-20.35.42:087][691]LogSavePackage: Save=7.49ms
+[2017.09.27-20.35.42:087][691]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Interact_Interface291DB22F4276B1B1079A1D84420A0C36.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset'
+[2017.09.27-20.35.42:091][691]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/Interact_Interface.uasset
+[2017.09.27-20.35.45:596][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP01" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset" SILENT=true
+[2017.09.27-20.35.45:658][826]LogSavePackage: Save=49.95ms
+[2017.09.27-20.35.45:658][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP017019204943AFDE92B5520DAF4111A6BE.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset'
+[2017.09.27-20.35.45:662][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP01.uasset
+[2017.09.27-20.35.45:666][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP02" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP02.uasset" SILENT=true
+[2017.09.27-20.35.45:734][826]LogSavePackage: Save=54.41ms
+[2017.09.27-20.35.45:734][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP028EC3A20B431837638540D2A1E20F81DD.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP02.uasset'
+[2017.09.27-20.35.45:738][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP02.uasset
+[2017.09.27-20.35.45:743][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/DoorBP03" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP03.uasset" SILENT=true
+[2017.09.27-20.35.45:809][826]LogSavePackage: Save=52.11ms
+[2017.09.27-20.35.45:809][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/DoorBP03EA25CDFE4DD7D1BF90F7CDA6B8C8515E.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP03.uasset'
+[2017.09.27-20.35.45:813][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Blueprints/DoorBP03.uasset
+[2017.09.27-20.35.45:816][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/FPCamera/FPCamera" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/FPCamera/FPCamera.uasset" SILENT=true
+[2017.09.27-20.35.45:973][826]LogSavePackage: Save=142.80ms
+[2017.09.27-20.35.45:973][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/FPCamera5621C35948E195C02AD17386D8FA2AA9.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/FPCamera/FPCamera.uasset'
+[2017.09.27-20.35.45:977][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/FPCamera/FPCamera.uasset
+[2017.09.27-20.35.46:105][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/MainMap" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.27-20.35.46:435][826]LogSavePackage: Save=298.76ms
+[2017.09.27-20.35.46:435][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/MainMap26CC6B2145C0F4835150CEB1FA40EB4B.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap'
+[2017.09.27-20.35.46:439][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Maps/MainMap.umap
+[2017.09.27-20.35.46:465][826]LogFileHelpers: Saving map 'MainMap' took 0.485
+[2017.09.27-20.35.46:467][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset" SILENT=true
+[2017.09.27-20.35.46:599][826]LogSavePackage: Save=117.09ms
+[2017.09.27-20.35.46:599][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor12BEA7B5408DC6E94FDF25B65A1755BC.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset'
+[2017.09.27-20.35.46:603][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor.uasset
+[2017.09.27-20.35.46:606][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/Monitor02" FILE="../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor02.uasset" SILENT=true
+[2017.09.27-20.35.46:657][826]LogSavePackage: Save=36.59ms
+[2017.09.27-20.35.46:657][826]LogSavePackage: Moving '../../../../../UE4 Projects/InteractivePannel/Saved/Monitor02D6793638492F4BA0502117B83DF2126B.tmp' to '../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor02.uasset'
+[2017.09.27-20.35.46:661][826]LogSavePackage:Display: Finished SavePackage ../../../../../UE4 Projects/InteractivePannel/Content/MyContent/Widgets/Monitor02.uasset
+[2017.09.27-20.35.47:787][912]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.27-20.35.47:808][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.35.47:808][912]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.27-20.35.47:808][912]LogPlayLevel: [PlayLevel] Compiling DoorBP01 before play...
+[2017.09.27-20.35.47:825][912]LogPlayLevel: [PlayLevel]   Compiling FPCamera as a dependent...
+[2017.09.27-20.35.48:028][912]LogPlayLevel: [PlayLevel] Compiling DoorBP02 before play...
+[2017.09.27-20.35.48:152][912]LogPlayLevel: [PlayLevel] Compiling DoorBP03 before play...
+[2017.09.27-20.35.48:172][912]LogPlayLevel: [PlayLevel]   Compiling Monitor02 as a dependent...
+[2017.09.27-20.35.48:368][912]LogPlayLevel: [PlayLevel] Compiling Monitor before play...
+[2017.09.27-20.35.48:388][912]LogBlueprint:Error: [Compiler Monitor] Error Unable to find function with name BPLocation04 for Message node  Invalid Message Node .
+[2017.09.27-20.35.48:388][912]LogBlueprint:Error: [Compiler Monitor] Error Unable to find function with name BPLocation03 for Message node  Invalid Message Node .
+[2017.09.27-20.35.48:388][912]LogBlueprint:Error: [Compiler Monitor] Error Unable to find function with name BPLocation02 for Message node  Invalid Message Node .
+[2017.09.27-20.35.48:388][912]LogBlueprint:Error: [Compiler Monitor] Error Can't connect pins  Out Actors  and  Target : Array of Scene Capture 2D References is not compatible with Object Reference.
+[2017.09.27-20.35.48:400][912]LogBlueprint:Error: [Compiler Monitor] Error Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Can't connect pins  Out Actors  and  Target : Array of Scene Capture 2D References is not compatible with Object Reference.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Can't connect pins  Out Actors  and  Target : Array of Scene Capture 2D References is not compatible with Object Reference.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of Scene Capture 2D References.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Could not find a function named "BPLocation04" in 'Interact_Interface_C'.
+Make sure 'Interact_Interface_C' has been compiled for  Invalid Message Node
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of Scene Capture 2D References.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Could not find a function named "BPLocation03" in 'Interact_Interface_C'.
+Make sure 'Interact_Interface_C' has been compiled for  Invalid Message Node
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of Scene Capture 2D References.
+[2017.09.27-20.35.48:401][912]LogBlueprint:Error: [Compiler Monitor] Error Could not find a function named "BPLocation02" in 'Interact_Interface_C'.
+Make sure 'Interact_Interface_C' has been compiled for  Invalid Message Node
+[2017.09.27-20.35.48:570][912]LogBlueprint:Warning: [Compiler Monitor] Warning [2304.53] Compile of Monitor failed. 15 Fatal Issue(s) 0 Warning(s) [in 192 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.35.48:570][912]LogBlueprint:Warning: [Compiler Monitor] Warning [2304.53] Compile of Monitor failed. 15 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.35.48:570][912]LogBlueprint:Warning: [Compiler Monitor] Warning [2304.53] Compile of Monitor failed. 15 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.35.48:570][912]LogBlueprint:Warning: [Compiler Monitor] Warning [2304.53] Compile of Monitor failed. 15 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.35.48:575][912]LogBlueprint:Warning: [Compiler Monitor] Warning [2304.53] Compile of Monitor failed. 15 Fatal Issue(s) 4 Warning(s) [in 4 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.35.48:575][912]LogBlueprint:Warning: [Compiler Monitor] Warning [2304.53] Compile of Monitor failed. 15 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/MyContent/Widgets/Monitor.Monitor)
+[2017.09.27-20.35.48:604][912]LogPlayLevel: PlayLevel: Blueprint regeneration took 796 ms (6 blueprints)
+[2017.09.27-20.35.48:604][912]BlueprintLog: Info Blueprint Monitor failed to compile
+[2017.09.27-20.35.51:634][912]PIE: New page: PIE session: MainMap (27 Sep 2017 22:35:51)
+[2017.09.27-20.35.51:634][912]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_MainMap
+[2017.09.27-20.35.51:648][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013555s)
+[2017.09.27-20.35.51:648][912]LogAIModule: Creating AISystem for world MainMap
+[2017.09.27-20.35.51:649][912]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.09.27-20.35.51:649][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/MainMap.MainMap to /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap (0.014361s)
+[2017.09.27-20.35.51:678][912]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.27-20.35.51:682][912]LogInit: FAudioDevice initialized.
+[2017.09.27-20.35.51:713][912]LogLoad: Game class is 'NewGM_C'
+[2017.09.27-20.35.51:718][912]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2017.09.27-21.35.51
+[2017.09.27-20.35.51:719][912]LogWorld: Bringing up level for play took: 0.003956
+[2017.09.27-20.35.51:720][912]PIE: Info Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_MainMap 3.094
+[2017.09.27-20.35.51:720][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.35.51:722][912]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_FPCamera' from node: Remove from Parent in graph: EventGraph in object: FPCamera with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.09.27-20.35.52:422][958]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.35.52:507][958]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MyContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MyContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2017.09.27-20.36.47:839][923]BlueprintLog: New page: Compile Interact_Interface
+[2017.09.27-20.36.48:284][923]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.321 s
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: 
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: Ensure condition failed: EventSignature [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\EdGraphSchema_K2.cpp] [Line: 5877]
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: 
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: Stack: 
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C305E2B6
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C2E0B8C2
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C2E21E86
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000B0E9653C
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C0360E31
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C03607A6
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000AC1BAD16
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000AC1B94A9
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000AC1B878C
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C03811B9
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C038D386
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C03CC17E
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000B1AB0EAA
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000B1B00991
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000B1B055D6
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C219EB7F
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2297EF2
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2203DD2
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2205079
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2277C05
+[2017.09.27-20.36.48:284][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2328F57
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2355D7B
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2179E9C
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2149835
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C21EE5E2
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C21D720F
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C21C8391
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C305175B
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C303B7D1
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C30533DB
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3037B22
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: USER32.dll!0x00000000EB58BC50
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: USER32.dll!0x00000000EB58B5CF
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3053CE6
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor.exe!0x00000000C3E0DB44
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor.exe!0x00000000C3DFF0B0
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor.exe!0x00000000C3DFF12A
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor.exe!0x00000000C3E10CF9
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: UE4Editor.exe!0x00000000C3E125F7
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: KERNEL32.DLL!0x00000000ECE82774
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: ntdll.dll!0x00000000ED520D51
+[2017.09.27-20.36.48:285][923]LogOutputDevice:Error: 
+[2017.09.27-20.36.48:292][923]LogStats:                SubmitErrorReport -  0.000 s
